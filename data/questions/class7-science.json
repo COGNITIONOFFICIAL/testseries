@@ -1,0 +1,367 @@
+{
+  "class": "7",
+  "chapter": "Science",
+  "topic": "Science",
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "Which of the following is a physical change?",
+      "choices": [
+        "Melting of ice",
+        "Rusting of iron",
+        "Burning of paper",
+        "Digestion of food"
+      ],
+      "answer": 0,
+      "explanation": "Melting of ice is a physical change as it only changes the state of water without forming a new substance"
+    },
+    {
+      "id": "q2", 
+      "stem": "What is the mode of nutrition in green plants?",
+      "choices": [
+        "Autotrophic",
+        "Heterotrophic",
+        "Parasitic",
+        "Saprophytic"
+      ],
+      "answer": 0,
+      "explanation": "Green plants are autotrophs as they make their own food through photosynthesis"
+    },
+    {
+      "id": "q3",
+      "stem": "Which tissue transports water and minerals in plants?",
+      "choices": [
+        "Xylem",
+        "Phloem",
+        "Epidermis",
+        "Parenchyma"
+      ],
+      "answer": 0,
+      "explanation": "Xylem tissue is responsible for transporting water and minerals from roots to other parts of the plant"
+    },
+    {
+      "id": "q4",
+      "stem": "The SI unit of temperature is:",
+      "choices": [
+        "Kelvin",
+        "Celsius",
+        "Fahrenheit",
+        "Rankine"
+      ],
+      "answer": 0,
+      "explanation": "Kelvin (K) is the SI unit of temperature"
+    },
+    {
+      "id": "q5",
+      "stem": "Which component in a simple electric circuit provides the energy?",
+      "choices": [
+        "Battery",
+        "Switch",
+        "Bulb",
+        "Connecting wires"
+      ],
+      "answer": 0,
+      "explanation": "Battery provides the electrical energy in a simple circuit"
+    },
+    {
+      "id": "q6",
+      "stem": "What happens when light rays fall on a plane mirror?",
+      "choices": [
+        "Regular reflection",
+        "Irregular reflection",
+        "Refraction",
+        "Dispersion"
+      ],
+      "answer": 0,
+      "explanation": "Plane mirrors cause regular reflection where all reflected rays are parallel"
+    },
+    {
+      "id": "q7",
+      "stem": "Which of these is an acid?",
+      "choices": [
+        "Citric acid",
+        "Sodium hydroxide",
+        "Calcium oxide",
+        "Magnesium hydroxide"
+      ],
+      "answer": 0,
+      "explanation": "Citric acid found in citrus fruits is an acid"
+    },
+    {
+      "id": "q8",
+      "stem": "What instrument measures atmospheric pressure?",
+      "choices": [
+        "Barometer",
+        "Thermometer",
+        "Hygrometer",
+        "Anemometer"
+      ],
+      "answer": 0,
+      "explanation": "A barometer is used to measure atmospheric pressure"
+    },
+    {
+      "id": "q9",
+      "stem": "Which gas is released during photosynthesis?",
+      "choices": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "answer": 0,
+      "explanation": "Oxygen is released as a byproduct during photosynthesis"
+    },
+    {
+      "id": "q10",
+      "stem": "What is the function of white blood cells?",
+      "choices": [
+        "Fight infection",
+        "Transport oxygen",
+        "Clot blood",
+        "Produce hormones"
+      ],
+      "answer": 0,
+      "explanation": "White blood cells (WBCs) help fight infections in the body"
+    },
+    {
+      "id": "q11",
+      "stem": "Which soil has the highest water retention capacity?",
+      "choices": [
+        "Clay soil",
+        "Sandy soil",
+        "Loamy soil",
+        "Rocky soil"
+      ],
+      "answer": 0,
+      "explanation": "Clay soil has the highest water retention capacity due to its small particle size"
+    },
+    {
+      "id": "q12",
+      "stem": "What type of motion does a swing exhibit?",
+      "choices": [
+        "Periodic motion",
+        "Linear motion",
+        "Circular motion",
+        "Random motion"
+      ],
+      "answer": 0,
+      "explanation": "A swing shows periodic motion as it moves back and forth regularly"
+    },
+    {
+      "id": "q13",
+      "stem": "Which part of the flower develops into fruit?",
+      "choices": [
+        "Ovary",
+        "Sepal",
+        "Petal",
+        "Stamen"
+      ],
+      "answer": 0,
+      "explanation": "The ovary of the flower develops into fruit after fertilization"
+    },
+    {
+      "id": "q14",
+      "stem": "What causes winds to blow?",
+      "choices": [
+        "Air pressure differences",
+        "Earth's rotation",
+        "Ocean currents",
+        "Temperature only"
+      ],
+      "answer": 0,
+      "explanation": "Winds blow from high pressure areas to low pressure areas"
+    },
+    {
+      "id": "q15",
+      "stem": "Which organ removes excess water and salts from blood?",
+      "choices": [
+        "Kidneys",
+        "Lungs",
+        "Heart",
+        "Liver"
+      ],
+      "answer": 0,
+      "explanation": "Kidneys filter blood and remove excess water and salts as urine"
+    },
+    {
+      "id": "q16",
+      "stem": "What is the process of conversion of water vapor to water called?",
+      "choices": [
+        "Condensation",
+        "Evaporation",
+        "Sublimation",
+        "Freezing"
+      ],
+      "answer": 0,
+      "explanation": "Condensation is the process where water vapor turns into liquid water"
+    },
+    {
+      "id": "q17",
+      "stem": "Which layer of the atmosphere contains the ozone layer?",
+      "choices": [
+        "Stratosphere",
+        "Troposphere",
+        "Mesosphere",
+        "Thermosphere"
+      ],
+      "answer": 0,
+      "explanation": "The ozone layer is found in the stratosphere"
+    },
+    {
+      "id": "q18",
+      "stem": "What is the role of decomposers in an ecosystem?",
+      "choices": [
+        "Break down dead matter",
+        "Produce food",
+        "Consume plants",
+        "Release oxygen"
+      ],
+      "answer": 0,
+      "explanation": "Decomposers break down dead organic matter and return nutrients to the soil"
+    },
+    {
+      "id": "q19",
+      "stem": "Which metal is used in thermometers?",
+      "choices": [
+        "Mercury",
+        "Iron",
+        "Copper",
+        "Aluminum"
+      ],
+      "answer": 0,
+      "explanation": "Mercury is traditionally used in thermometers due to its uniform expansion"
+    },
+    {
+      "id": "q20",
+      "stem": "What is the basic unit of life?",
+      "choices": [
+        "Cell",
+        "Tissue",
+        "Organ",
+        "Molecule"
+      ],
+      "answer": 0,
+      "explanation": "The cell is the basic structural and functional unit of life"
+    },
+    {
+      "id": "q21",
+      "stem": "Which gas is needed for rusting of iron?",
+      "choices": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon dioxide",
+        "Hydrogen"
+      ],
+      "answer": 0,
+      "explanation": "Oxygen is necessary for iron to rust (oxidize)"
+    },
+    {
+      "id": "q22",
+      "stem": "What type of teeth are used for cutting food?",
+      "choices": [
+        "Incisors",
+        "Canines",
+        "Premolars",
+        "Molars"
+      ],
+      "answer": 0,
+      "explanation": "Incisors are the front teeth used for cutting food"
+    },
+    {
+      "id": "q23",
+      "stem": "Which material is the best conductor of heat?",
+      "choices": [
+        "Copper",
+        "Wood",
+        "Plastic",
+        "Rubber"
+      ],
+      "answer": 0,
+      "explanation": "Copper is an excellent conductor of heat"
+    },
+    {
+      "id": "q24",
+      "stem": "What is the process of loss of water from plant leaves called?",
+      "choices": [
+        "Transpiration",
+        "Evaporation",
+        "Condensation",
+        "Precipitation"
+      ],
+      "answer": 0,
+      "explanation": "Transpiration is the loss of water vapor from plant leaves"
+    },
+    {
+      "id": "q25",
+      "stem": "Which chamber of the heart pumps blood to the body?",
+      "choices": [
+        "Left ventricle",
+        "Right ventricle",
+        "Left atrium",
+        "Right atrium"
+      ],
+      "answer": 0,
+      "explanation": "The left ventricle pumps oxygenated blood to the rest of the body"
+    },
+    {
+      "id": "q26",
+      "stem": "What causes day and night on Earth?",
+      "choices": [
+        "Earth's rotation",
+        "Earth's revolution",
+        "Moon's rotation",
+        "Sun's rotation"
+      ],
+      "answer": 0,
+      "explanation": "Earth's rotation on its axis causes day and night"
+    },
+    {
+      "id": "q27",
+      "stem": "Which part of the plant cell contains chlorophyll?",
+      "choices": [
+        "Chloroplast",
+        "Mitochondria",
+        "Nucleus",
+        "Vacuole"
+      ],
+      "answer": 0,
+      "explanation": "Chloroplasts contain chlorophyll which is needed for photosynthesis"
+    },
+    {
+      "id": "q28",
+      "stem": "What is the pH of a neutral solution?",
+      "choices": [
+        "7",
+        "0",
+        "14",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "A neutral solution has a pH of 7"
+    },
+    {
+      "id": "q29",
+      "stem": "Which weather instrument measures wind speed?",
+      "choices": [
+        "Anemometer",
+        "Barometer",
+        "Hygrometer",
+        "Rain gauge"
+      ],
+      "answer": 0,
+      "explanation": "An anemometer is used to measure wind speed"
+    },
+    {
+      "id": "q30",
+      "stem": "What is the main function of red blood cells?",
+      "choices": [
+        "Transport oxygen",
+        "Fight infection",
+        "Clot blood",
+        "Produce antibodies"
+      ],
+      "answer": 0,
+      "explanation": "Red blood cells transport oxygen throughout the body"
+    }
+  ]
+}

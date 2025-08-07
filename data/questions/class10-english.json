@@ -1,0 +1,607 @@
+{
+  "class": "10",
+  "chapter": "English",
+  "topic": "Literature and Grammar",
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "In the poem 'Fire and Ice' by Robert Frost, what does 'fire' symbolize?",
+      "choices": [
+        "Desire",
+        "Hatred",
+        "Knowledge",
+        "Power"
+      ],
+      "answer": 0,
+      "explanation": "Fire symbolizes desire and passion in the poem"
+    },
+    {
+      "id": "q2",
+      "stem": "Which of these is an example of a metaphor?",
+      "choices": [
+        "Life is a roller coaster",
+        "As cold as ice",
+        "The wind howled",
+        "Time flies quickly"
+      ],
+      "answer": 0,
+      "explanation": "Direct comparison without 'like' or 'as' is metaphor"
+    },
+    {
+      "id": "q3",
+      "stem": "The passive voice of 'They are playing cricket' is:",
+      "choices": [
+        "Cricket is being played by them",
+        "Cricket was played by them",
+        "Cricket has been played by them",
+        "Cricket will be played by them"
+      ],
+      "answer": 0,
+      "explanation": "Present continuous passive uses 'is/are being + past participle'"
+    },
+    {
+      "id": "q4",
+      "stem": "In 'The Tale of Custard the Dragon', what kind of pet is Custard?",
+      "choices": [
+        "Dragon",
+        "Dog",
+        "Cat",
+        "Bird"
+      ],
+      "answer": 0,
+      "explanation": "Custard is a cowardly dragon in Ogden Nash's poem"
+    },
+    {
+      "id": "q5",
+      "stem": "Which literary device is used in 'The silence of the night was deafening'?",
+      "choices": [
+        "Oxymoron",
+        "Simile",
+        "Alliteration",
+        "Personification"
+      ],
+      "answer": 0,
+      "explanation": "Oxymoron combines contradictory terms (silent and deafening)"
+    },
+    {
+      "id": "q6",
+      "stem": "What type of conjunction is 'neither...nor'?",
+      "choices": [
+        "Correlative",
+        "Coordinating",
+        "Subordinating",
+        "Compound"
+      ],
+      "answer": 0,
+      "explanation": "Correlative conjunctions work in pairs to join similar elements"
+    },
+    {
+      "id": "q7",
+      "stem": "In 'Two Stories about Flying', what does the young seagull fear?",
+      "choices": [
+        "Flying",
+        "Water",
+        "Height",
+        "Other birds"
+      ],
+      "answer": 0,
+      "explanation": "The young seagull fears taking his first flight"
+    },
+    {
+      "id": "q8",
+      "stem": "Which sentence uses the correct article?",
+      "choices": [
+        "She is an honest person",
+        "She is a honest person",
+        "She is the honest person",
+        "She is honest person"
+      ],
+      "answer": 0,
+      "explanation": "'An' is used before words beginning with vowel sounds"
+    },
+    {
+      "id": "q9",
+      "stem": "In 'The Proposal', what causes the first argument between Lomov and Natalya?",
+      "choices": [
+        "Land ownership",
+        "Marriage proposal",
+        "Family wealth",
+        "Social status"
+      ],
+      "answer": 0,
+      "explanation": "They argue about the ownership of Oxen Meadows"
+    },
+    {
+      "id": "q10",
+      "stem": "Which of these is a complex sentence?",
+      "choices": [
+        "Although it rained, we went out",
+        "It rained and we went out",
+        "It rained but we went out",
+        "It rained so we went out"
+      ],
+      "answer": 0,
+      "explanation": "Complex sentence has main and dependent clause"
+    },
+    {
+      "id": "q11",
+      "stem": "In 'A Letter to God', what does Lencho ask for in his letter?",
+      "choices": [
+        "Money",
+        "Food",
+        "Rain",
+        "Seeds"
+      ],
+      "answer": 0,
+      "explanation": "Lencho asks God for money to survive after crop destruction"
+    },
+    {
+      "id": "q12",
+      "stem": "What is the correct indirect speech for 'He said, \"I am happy\"'?",
+      "choices": [
+        "He said that he was happy",
+        "He said that he is happy",
+        "He told that he was happy",
+        "He told that he is happy"
+      ],
+      "answer": 0,
+      "explanation": "In indirect speech, present tense changes to past tense"
+    },
+    {
+      "id": "q13",
+      "stem": "What poetic device is used in 'The woods are lovely, dark and deep'?",
+      "choices": [
+        "Assonance",
+        "Consonance",
+        "Alliteration",
+        "Onomatopoeia"
+      ],
+      "answer": 0,
+      "explanation": "Repetition of vowel sounds (o,e) shows assonance"
+    },
+    {
+      "id": "q14",
+      "stem": "Which modal verb expresses ability?",
+      "choices": [
+        "Can",
+        "Must",
+        "Should",
+        "Would"
+      ],
+      "answer": 0,
+      "explanation": "'Can' expresses ability or capability"
+    },
+    {
+      "id": "q15",
+      "stem": "In 'The Thief's Story', what does Anil teach the thief?",
+      "choices": [
+        "To write",
+        "To read",
+        "To cook",
+        "To clean"
+      ],
+      "answer": 0,
+      "explanation": "Anil teaches Hari Singh (thief) to write his name"
+    },
+    {
+      "id": "q16",
+      "stem": "Which sentence is in the present perfect tense?",
+      "choices": [
+        "I have finished my work",
+        "I finished my work",
+        "I had finished my work",
+        "I will finish my work"
+      ],
+      "answer": 0,
+      "explanation": "Present perfect uses 'have/has + past participle'"
+    },
+    {
+      "id": "q17",
+      "stem": "What is Amanda's main complaint in the poem 'Amanda'?",
+      "choices": [
+        "Too many restrictions",
+        "Too much homework",
+        "No friends",
+        "Bad weather"
+      ],
+      "answer": 0,
+      "explanation": "Amanda feels restricted by constant adult instructions"
+    },
+    {
+      "id": "q18",
+      "stem": "Which word is an abstract noun?",
+      "choices": [
+        "Freedom",
+        "Chair",
+        "Book",
+        "Tree"
+      ],
+      "answer": 0,
+      "explanation": "Abstract nouns name ideas or qualities, not physical things"
+    },
+    {
+      "id": "q19",
+      "stem": "In 'The Midnight Visitor', what is Ausable's profession?",
+      "choices": [
+        "Secret agent",
+        "Police officer",
+        "Teacher",
+        "Writer"
+      ],
+      "answer": 0,
+      "explanation": "Ausable works as a secret agent in France"
+    },
+    {
+      "id": "q20",
+      "stem": "Which sentence uses correct subject-verb agreement?",
+      "choices": [
+        "Neither of them is right",
+        "Neither of them are right",
+        "None of them are right",
+        "Any of them are right"
+      ],
+      "answer": 0,
+      "explanation": "'Neither' takes singular verb 'is'"
+    },
+    {
+      "id": "q1",
+      "stem": "In 'The Letter', what does Ali wait for every day at the post office?",
+      "choices": [
+        "A letter from his daughter",
+        "His pension",
+        "A job offer",
+        "His mail subscription"
+      ],
+      "answer": 0,
+      "explanation": "Ali waits daily for a letter from his daughter Miriam who left after marriage."
+    },
+    {
+      "id": "q2",
+      "stem": "Which literary device is used in 'The woods are lovely, dark and deep'?",
+      "choices": [
+        "Alliteration",
+        "Metaphor",
+        "Simile",
+        "Hyperbole"
+      ],
+      "answer": 0,
+      "explanation": "The repeated 'd' sound in 'dark and deep' creates alliteration."
+    },
+    {
+      "id": "q3",
+      "stem": "The correct form of reported speech for 'He said, \"I am going home\"' is:",
+      "choices": [
+        "He said that he was going home",
+        "He said that he is going home",
+        "He said he will go home",
+        "He said he went home"
+      ],
+      "answer": 0,
+      "explanation": "In reported speech, present tense changes to past and pronouns change accordingly."
+    },
+    {
+      "id": "q4",
+      "stem": "What does Mandela mean by 'hunger for freedom' in his autobiography?",
+      "choices": [
+        "Desire for political independence",
+        "Need for food",
+        "Want of money",
+        "Lack of education"
+      ],
+      "answer": 0,
+      "explanation": "The phrase refers to the desire for political freedom and basic human rights."
+    },
+    {
+      "id": "q5",
+      "stem": "Which of these is a correct passive voice construction?",
+      "choices": [
+        "The book was written by him",
+        "He has written the book",
+        "He wrote the book",
+        "The book is write by him"
+      ],
+      "answer": 0,
+      "explanation": "Passive voice follows the structure: subject + be verb + past participle + by + agent"
+    },
+    {
+      "id": "q6",
+      "stem": "In 'The Tale of Custard the Dragon', what type of dragon is Custard?",
+      "choices": [
+        "Cowardly but brave when needed",
+        "Always brave",
+        "Always cowardly",
+        "Aggressive"
+      ],
+      "answer": 0,
+      "explanation": "Custard appears cowardly but shows true bravery when real danger appears."
+    },
+    {
+      "id": "q7",
+      "stem": "Which tense is used in: 'I have been living here since 2010'?",
+      "choices": [
+        "Present perfect continuous",
+        "Present continuous",
+        "Present perfect",
+        "Simple present"
+      ],
+      "answer": 0,
+      "explanation": "Present perfect continuous shows action continuing from past to present."
+    },
+    {
+      "id": "q8",
+      "stem": "What is the theme of the poem 'Fire and Ice'?",
+      "choices": [
+        "Human desires and hatred",
+        "Natural disasters",
+        "Climate change",
+        "Seasonal changes"
+      ],
+      "answer": 0,
+      "explanation": "The poem explores how human desires (fire) and hatred (ice) can lead to destruction."
+    },
+    {
+      "id": "q9",
+      "stem": "Choose the correct preposition: 'He is fond ___ reading.'",
+      "choices": [
+        "of",
+        "in",
+        "at",
+        "by"
+      ],
+      "answer": 0,
+      "explanation": "'Fond of' is the correct prepositional phrase."
+    },
+    {
+      "id": "q10",
+      "stem": "What does 'dust of snow' symbolize in Robert Frost's poem?",
+      "choices": [
+        "Natural healing",
+        "Winter season",
+        "Difficulties",
+        "Depression"
+      ],
+      "answer": 0,
+      "explanation": "The dust of snow symbolizes nature's healing touch and mood transformation."
+    },
+    {
+      "id": "q11",
+      "stem": "What is the correct order of adjectives in 'a ___ Swiss ___ watch'?",
+      "choices": [
+        "beautiful old",
+        "old beautiful",
+        "Swiss beautiful",
+        "beautiful Swiss"
+      ],
+      "answer": 0,
+      "explanation": "The correct order is: opinion (beautiful) + age (old) + origin (Swiss) + noun"
+    },
+    {
+      "id": "q12",
+      "stem": "In 'A Tiger in the Zoo', how is the tiger different from a wild tiger?",
+      "choices": [
+        "It is confined and restricted",
+        "It is well-fed",
+        "It is healthier",
+        "It is happier"
+      ],
+      "answer": 0,
+      "explanation": "The zoo tiger is confined and restricted, unlike its free wild counterparts."
+    },
+    {
+      "id": "q13",
+      "stem": "Which sentence has correct subject-verb agreement?",
+      "choices": [
+        "Neither of the boys was present",
+        "Neither of the boys were present",
+        "None of the boy was present",
+        "None of the boy were present"
+      ],
+      "answer": 0,
+      "explanation": "'Neither' takes a singular verb when followed by 'of'."
+    },
+    {
+      "id": "q14",
+      "stem": "What is the central theme of 'The Proposal'?",
+      "choices": [
+        "Marriage and property",
+        "Pure love",
+        "Family values",
+        "Rural life"
+      ],
+      "answer": 0,
+      "explanation": "The play satirizes how marriage proposal gets entangled with property disputes."
+    },
+    {
+      "id": "q15",
+      "stem": "Identify the type of clause: 'wherever you go'",
+      "choices": [
+        "Adverbial clause",
+        "Noun clause",
+        "Adjective clause",
+        "Main clause"
+      ],
+      "answer": 0,
+      "explanation": "This is an adverbial clause of place, modifying the verb in main clause."
+    },
+    {
+      "id": "q16",
+      "stem": "What does Lencho's letter to God reveal about his character?",
+      "choices": [
+        "His faith and innocence",
+        "His greed",
+        "His education",
+        "His wealth"
+      ],
+      "answer": 0,
+      "explanation": "The letter shows Lencho's deep faith and innocent belief in God's help."
+    },
+    {
+      "id": "q17",
+      "stem": "Choose the correct indirect speech: 'Stop!', she said.",
+      "choices": [
+        "She ordered them to stop",
+        "She said stop",
+        "She told to stop",
+        "She says stop"
+      ],
+      "answer": 0,
+      "explanation": "Imperative sentences in indirect speech use verbs like 'ordered', 'commanded', etc."
+    },
+    {
+      "id": "q18",
+      "stem": "What is the significance of the black dog in 'The Ball Poem'?",
+      "choices": [
+        "Symbol of companionship",
+        "Actual pet",
+        "Source of fear",
+        "Random element"
+      ],
+      "answer": 0,
+      "explanation": "The black dog symbolizes companionship and comfort in times of loss."
+    },
+    {
+      "id": "q19",
+      "stem": "Which sentence uses the correct article?",
+      "choices": [
+        "He is an honest man",
+        "He is a honest man",
+        "He is the honest man",
+        "He is honest man"
+      ],
+      "answer": 0,
+      "explanation": "Use 'an' before words beginning with vowel sounds."
+    },
+    {
+      "id": "q20",
+      "stem": "What does the phrase 'bread and butter' mean in its idiomatic sense?",
+      "choices": [
+        "Means of livelihood",
+        "Food items",
+        "Basic necessities",
+        "Cooking ingredients"
+      ],
+      "answer": 0,
+      "explanation": "The idiom 'bread and butter' means means of livelihood or basic source of income."
+    },
+    {
+      "id": "q21",
+      "stem": "Placeholder question 21 for Class 10 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 21"
+    },
+    {
+      "id": "q22",
+      "stem": "Placeholder question 22 for Class 10 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 22"
+    },
+    {
+      "id": "q23",
+      "stem": "Placeholder question 23 for Class 10 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 23"
+    },
+    {
+      "id": "q24",
+      "stem": "Placeholder question 24 for Class 10 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 24"
+    },
+    {
+      "id": "q25",
+      "stem": "Placeholder question 25 for Class 10 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 25"
+    },
+    {
+      "id": "q26",
+      "stem": "Placeholder question 26 for Class 10 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 26"
+    },
+    {
+      "id": "q27",
+      "stem": "Placeholder question 27 for Class 10 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 27"
+    },
+    {
+      "id": "q28",
+      "stem": "Placeholder question 28 for Class 10 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 28"
+    },
+    {
+      "id": "q29",
+      "stem": "Placeholder question 29 for Class 10 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 29"
+    },
+    {
+      "id": "q30",
+      "stem": "Placeholder question 30 for Class 10 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 30"
+    }
+  ]
+}

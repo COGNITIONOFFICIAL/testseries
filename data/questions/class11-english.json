@@ -1,0 +1,247 @@
+{
+  "class": "11",
+  "chapter": "English",
+  "topic": "English",
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "In 'The Portrait of a Lady', what does the grandmother do every morning?",
+      "choices": [
+        "Feeds sparrows",
+        "Waters plants",
+        "Cooks breakfast",
+        "Reads newspaper"
+      ],
+      "answer": 0,
+      "explanation": "The grandmother feeds sparrows every morning, showing her connection with nature and routine."
+    },
+    {
+      "id": "q2",
+      "stem": "Which figure of speech is used in 'The laburnum top is silent'?",
+      "choices": [
+        "Personification",
+        "Simile",
+        "Metaphor",
+        "Alliteration"
+      ],
+      "answer": 0,
+      "explanation": "The tree top being 'silent' is personification as silence is a human attribute."
+    },
+    {
+      "id": "q3",
+      "stem": "What does 'The Voice of the Rain' symbolize?",
+      "choices": [
+        "Nature's cycle of giving and receiving",
+        "Weather patterns",
+        "Water conservation",
+        "Environmental pollution"
+      ],
+      "answer": 0,
+      "explanation": "The poem symbolizes the eternal cycle of nature where rain gives life and receives back in return."
+    },
+    {
+      "id": "q4",
+      "stem": "In 'We're Not Afraid to Die', what was Captain Waves' primary concern?",
+      "choices": [
+        "Saving his family",
+        "Reaching destination",
+        "Repairing the boat",
+        "Weather conditions"
+      ],
+      "answer": 0,
+      "explanation": "The Captain's primary concern throughout the journey was ensuring his family's safety."
+    },
+    {
+      "id": "q5",
+      "stem": "Which narrative technique is used in 'The Third Level'?",
+      "choices": [
+        "First-person narration",
+        "Third-person narration",
+        "Stream of consciousness",
+        "Omniscient narration"
+      ],
+      "answer": 0,
+      "explanation": "The story uses first-person narration, with Charley telling his own experience."
+    },
+    {
+      "id": "q6",
+      "stem": "What type of essay is 'The Browning Version'?",
+      "choices": [
+        "Character study",
+        "Descriptive essay",
+        "Argumentative essay",
+        "Narrative essay"
+      ],
+      "answer": 0,
+      "explanation": "It's a character study focusing on the complex personality of the schoolteacher."
+    },
+    {
+      "id": "q7",
+      "stem": "The correct form of reported speech for 'I shall finish this today' is:",
+      "choices": [
+        "He said he would finish that that day",
+        "He said he will finish this today",
+        "He said he shall finish this today",
+        "He said he finished that day"
+      ],
+      "answer": 0,
+      "explanation": "In reported speech: pronouns, tenses, and time expressions change accordingly."
+    },
+    {
+      "id": "q8",
+      "stem": "What is the theme of 'Father to Son'?",
+      "choices": [
+        "Generation gap",
+        "Family values",
+        "Social status",
+        "Educational importance"
+      ],
+      "answer": 0,
+      "explanation": "The poem explores the theme of generation gap between father and son."
+    },
+    {
+      "id": "q9",
+      "stem": "Which sentence structure is correct?",
+      "choices": [
+        "Not only was he late but also unprepared",
+        "Not only he was late but also unprepared",
+        "Not only was he late also but unprepared",
+        "He was not only late but unprepared also"
+      ],
+      "answer": 0,
+      "explanation": "'Not only...but also' requires parallel structure and proper word order."
+    },
+    {
+      "id": "q10",
+      "stem": "What does Albert's mathematics teacher symbolize in 'Albert Einstein at School'?",
+      "choices": [
+        "Rigid education system",
+        "Academic excellence",
+        "Student guidance",
+        "Modern teaching"
+      ],
+      "answer": 0,
+      "explanation": "The teacher represents the rigid, traditional education system that Einstein opposed."
+    },
+    {
+      "id": "q11",
+      "stem": "Which literary device is used in 'silent as a shadow'?",
+      "choices": [
+        "Simile",
+        "Metaphor",
+        "Hyperbole",
+        "Personification"
+      ],
+      "answer": 0,
+      "explanation": "This is a simile comparing silence to a shadow using 'as'."
+    },
+    {
+      "id": "q12",
+      "stem": "What is the central theme of 'Mother's Day'?",
+      "choices": [
+        "Role reversal",
+        "Family celebration",
+        "Mother's love",
+        "Household chores"
+      ],
+      "answer": 0,
+      "explanation": "The play focuses on role reversal and its impact on family dynamics."
+    },
+    {
+      "id": "q13",
+      "stem": "In academic writing, which citation style is commonly used for literature?",
+      "choices": [
+        "MLA",
+        "APA",
+        "Chicago",
+        "Harvard"
+      ],
+      "answer": 0,
+      "explanation": "MLA (Modern Language Association) style is standard for literature and humanities."
+    },
+    {
+      "id": "q14",
+      "stem": "What makes a paragraph coherent?",
+      "choices": [
+        "Logical flow of ideas",
+        "Length of sentences",
+        "Number of words",
+        "Complex vocabulary"
+      ],
+      "answer": 0,
+      "explanation": "Coherence comes from logical connection and smooth flow between ideas."
+    },
+    {
+      "id": "q15",
+      "stem": "Which tense is used in news headlines?",
+      "choices": [
+        "Simple present",
+        "Present continuous",
+        "Past perfect",
+        "Future tense"
+      ],
+      "answer": 0,
+      "explanation": "Headlines typically use simple present tense for immediate impact."
+    },
+    {
+      "id": "q16",
+      "stem": "What type of conflict is shown in 'The Adventure'?",
+      "choices": [
+        "Internal psychological",
+        "Physical conflict",
+        "Social conflict",
+        "Family dispute"
+      ],
+      "answer": 0,
+      "explanation": "The story presents internal psychological conflict about reality vs imagination."
+    },
+    {
+      "id": "q17",
+      "stem": "Which voice is preferred in formal writing?",
+      "choices": [
+        "Passive voice",
+        "Active voice",
+        "Both equally",
+        "Neither"
+      ],
+      "answer": 0,
+      "explanation": "Formal writing often uses passive voice to maintain objectivity."
+    },
+    {
+      "id": "q18",
+      "stem": "What is the purpose of a topic sentence?",
+      "choices": [
+        "Introduces main idea",
+        "Provides details",
+        "Concludes paragraph",
+        "Adds transition"
+      ],
+      "answer": 0,
+      "explanation": "Topic sentence introduces the main idea of the paragraph."
+    },
+    {
+      "id": "q19",
+      "stem": "Which of these is a characteristic of good business writing?",
+      "choices": [
+        "Conciseness",
+        "Verbosity",
+        "Complex structure",
+        "Informal tone"
+      ],
+      "answer": 0,
+      "explanation": "Business writing should be concise and to the point."
+    },
+    {
+      "id": "q20",
+      "stem": "What is the main function of a thesis statement?",
+      "choices": [
+        "States main argument",
+        "Provides background",
+        "Gives examples",
+        "Concludes essay"
+      ],
+      "answer": 0,
+      "explanation": "Thesis statement clearly states the main argument or point of the essay."
+    }
+  ]
+}

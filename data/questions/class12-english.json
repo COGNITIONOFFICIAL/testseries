@@ -1,0 +1,607 @@
+{
+  "class": "12",
+  "chapter": "English",
+  "topic": "English Literature and Language",
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "In the poem 'My Mother at Sixty-six' by Kamala Das, what does the poet compare her mother's face to?",
+      "choices": [
+        "A late winter's moon",
+        "An autumn leaf",
+        "A summer flower",
+        "A spring morning"
+      ],
+      "answer": 0,
+      "explanation": "The poet compares her mother's face to a late winter's moon, suggesting paleness and loss of vitality."
+    },
+    {
+      "id": "q2",
+      "stem": "Which literary device is used in the line 'The cardboard shows me how it was'?",
+      "choices": [
+        "Metaphor",
+        "Simile",
+        "Personification",
+        "Alliteration"
+      ],
+      "answer": 0,
+      "explanation": "The line uses metaphor by referring to a photograph as 'cardboard', comparing the physical photograph to its material."
+    },
+    {
+      "id": "q3",
+      "stem": "What is the central theme of 'The Last Lesson' by Alphonse Daudet?",
+      "choices": [
+        "Language as cultural identity",
+        "School discipline",
+        "Teacher-student relationship",
+        "Childhood memories"
+      ],
+      "answer": 0,
+      "explanation": "The story emphasizes the importance of language as a marker of cultural identity, particularly in the context of French language in Alsace."
+    },
+    {
+      "id": "q4",
+      "stem": "In report writing, which of these should be avoided?",
+      "choices": [
+        "Personal opinions",
+        "Statistical data",
+        "Factual information",
+        "Relevant quotations"
+      ],
+      "answer": 0,
+      "explanation": "Reports should be objective and factual. Personal opinions should be avoided unless specifically requested."
+    },
+    {
+      "id": "q5",
+      "stem": "The phrase 'rain of terror' instead of 'reign of terror' is an example of:",
+      "choices": [
+        "Malapropism",
+        "Metaphor",
+        "Alliteration",
+        "Hyperbole"
+      ],
+      "answer": 0,
+      "explanation": "Malapropism is the mistaken use of a word in place of a similar-sounding one, often creating a humorous effect."
+    },
+    {
+      "id": "q6",
+      "stem": "In 'Lost Spring' by Anees Jung, what does the author primarily critique?",
+      "choices": [
+        "Child labor and poverty",
+        "Education system",
+        "Government policies",
+        "Social customs"
+      ],
+      "answer": 0,
+      "explanation": "The author primarily criticizes the prevalence of child labor and the cycle of poverty that perpetuates it."
+    },
+    {
+      "id": "q7",
+      "stem": "What type of narrative technique is used in 'The Third Level' by Jack Finney?",
+      "choices": [
+        "First-person narration",
+        "Third-person narration",
+        "Stream of consciousness",
+        "Omniscient narration"
+      ],
+      "answer": 0,
+      "explanation": "The story uses first-person narration, with the protagonist Charley narrating his own experiences."
+    },
+    {
+      "id": "q8",
+      "stem": "Which of these is NOT a characteristic of a good business letter?",
+      "choices": [
+        "Informal tone",
+        "Clear purpose",
+        "Concise language",
+        "Proper format"
+      ],
+      "answer": 0,
+      "explanation": "Business letters should maintain a formal tone throughout. Informal tone is inappropriate for business communication."
+    },
+    {
+      "id": "q9",
+      "stem": "In 'Deep Water', what does William Douglas overcome?",
+      "choices": [
+        "Fear of water",
+        "Fear of heights",
+        "Fear of darkness",
+        "Fear of crowds"
+      ],
+      "answer": 0,
+      "explanation": "The essay describes Douglas's journey of overcoming his fear of water after a traumatic childhood experience."
+    },
+    {
+      "id": "q10",
+      "stem": "What does the Tiger King's death in 'The Tiger King' represent?",
+      "choices": [
+        "Irony of fate",
+        "Natural justice",
+        "Political power",
+        "Conservation"
+      ],
+      "answer": 0,
+      "explanation": "His death by a wooden tiger represents irony of fate, as he dies from what he least expects after killing real tigers."
+    },
+    {
+      "id": "q11",
+      "stem": "In notice writing, which of these is essential?",
+      "choices": [
+        "Date and signature",
+        "Decorative borders",
+        "Colored text",
+        "Long sentences"
+      ],
+      "answer": 0,
+      "explanation": "A notice must include the date of issue and signature of authorized person for authenticity."
+    },
+    {
+      "id": "q12",
+      "stem": "What does the poem 'An Elementary School Classroom in a Slum' primarily criticize?",
+      "choices": [
+        "Social inequality",
+        "Teaching methods",
+        "School infrastructure",
+        "Student behavior"
+      ],
+      "answer": 0,
+      "explanation": "The poem criticizes social inequality and the contrast between the children's harsh reality and their classroom decorations."
+    },
+    {
+      "id": "q13",
+      "stem": "In article writing, what should the introduction do?",
+      "choices": [
+        "Hook the reader's attention",
+        "State the conclusion",
+        "List all arguments",
+        "Give personal opinions"
+      ],
+      "answer": 0,
+      "explanation": "The introduction should grab the reader's attention and provide a brief overview of the topic."
+    },
+    {
+      "id": "q14",
+      "stem": "What is the significance of the title 'Keeping Quiet' by Pablo Neruda?",
+      "choices": [
+        "Introspection and peace",
+        "Political protest",
+        "Religious meditation",
+        "Social isolation"
+      ],
+      "answer": 0,
+      "explanation": "The title suggests introspection and the need for peaceful contemplation in a chaotic world."
+    },
+    {
+      "id": "q15",
+      "stem": "In formal letter writing, which format is correct for the sender's address?",
+      "choices": [
+        "Top left corner",
+        "Bottom right corner",
+        "Center of page",
+        "Top right corner"
+      ],
+      "answer": 0,
+      "explanation": "In formal letters, the sender's address should be written in the top left corner of the page."
+    },
+    {
+      "id": "q16",
+      "stem": "What does the rattrap seller symbolize in 'The Rattrap'?",
+      "choices": [
+        "Human vulnerability",
+        "Material greed",
+        "Social status",
+        "Professional skill"
+      ],
+      "answer": 0,
+      "explanation": "The rattrap seller symbolizes human vulnerability to temptation and the possibility of redemption."
+    },
+    {
+      "id": "q17",
+      "stem": "Which point of view is used in 'Should Wizard Hit Mommy'?",
+      "choices": [
+        "Third person limited",
+        "First person",
+        "Second person",
+        "Multiple viewpoints"
+      ],
+      "answer": 0,
+      "explanation": "The story uses third person limited perspective, primarily following Jack's thoughts and actions."
+    },
+    {
+      "id": "q18",
+      "stem": "What is the main theme of 'On the Face of It'?",
+      "choices": [
+        "Overcoming prejudice",
+        "Family relationships",
+        "Academic success",
+        "Career choices"
+      ],
+      "answer": 0,
+      "explanation": "The play deals with overcoming prejudice and the superficial nature of physical appearance."
+    },
+    {
+      "id": "q19",
+      "stem": "In précis writing, what should be the ideal length compared to the original passage?",
+      "choices": [
+        "One-third",
+        "One-half",
+        "Two-thirds",
+        "Three-fourths"
+      ],
+      "answer": 0,
+      "explanation": "A précis should generally be one-third the length of the original passage while retaining all essential points."
+    },
+    {
+      "id": "q20",
+      "stem": "What literary device is predominantly used in 'Aunt Jennifer's Tigers'?",
+      "choices": [
+        "Symbolism",
+        "Alliteration",
+        "Onomatopoeia",
+        "Hyperbole"
+      ],
+      "answer": 0,
+      "explanation": "The poem heavily uses symbolism, with the tigers representing Aunt Jennifer's suppressed desires and freedom."
+    },
+    {
+      "id": "q21",
+      "stem": "Placeholder question 1 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 1"
+    },
+    {
+      "id": "q22",
+      "stem": "Placeholder question 2 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 2"
+    },
+    {
+      "id": "q23",
+      "stem": "Placeholder question 3 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 3"
+    },
+    {
+      "id": "q24",
+      "stem": "Placeholder question 4 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 4"
+    },
+    {
+      "id": "q25",
+      "stem": "Placeholder question 5 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 5"
+    },
+    {
+      "id": "q26",
+      "stem": "Placeholder question 6 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 6"
+    },
+    {
+      "id": "q27",
+      "stem": "Placeholder question 7 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 7"
+    },
+    {
+      "id": "q28",
+      "stem": "Placeholder question 8 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 8"
+    },
+    {
+      "id": "q29",
+      "stem": "Placeholder question 9 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 9"
+    },
+    {
+      "id": "q30",
+      "stem": "Placeholder question 10 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 10"
+    },
+    {
+      "id": "q31",
+      "stem": "Placeholder question 11 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 11"
+    },
+    {
+      "id": "q32",
+      "stem": "Placeholder question 12 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 12"
+    },
+    {
+      "id": "q33",
+      "stem": "Placeholder question 13 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 13"
+    },
+    {
+      "id": "q34",
+      "stem": "Placeholder question 14 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 14"
+    },
+    {
+      "id": "q35",
+      "stem": "Placeholder question 15 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 15"
+    },
+    {
+      "id": "q36",
+      "stem": "Placeholder question 16 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 16"
+    },
+    {
+      "id": "q37",
+      "stem": "Placeholder question 17 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 17"
+    },
+    {
+      "id": "q38",
+      "stem": "Placeholder question 18 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 18"
+    },
+    {
+      "id": "q39",
+      "stem": "Placeholder question 19 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 19"
+    },
+    {
+      "id": "q40",
+      "stem": "Placeholder question 20 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 20"
+    },
+    {
+      "id": "q41",
+      "stem": "Placeholder question 21 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 21"
+    },
+    {
+      "id": "q42",
+      "stem": "Placeholder question 22 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 22"
+    },
+    {
+      "id": "q43",
+      "stem": "Placeholder question 23 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 23"
+    },
+    {
+      "id": "q44",
+      "stem": "Placeholder question 24 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 24"
+    },
+    {
+      "id": "q45",
+      "stem": "Placeholder question 25 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 25"
+    },
+    {
+      "id": "q46",
+      "stem": "Placeholder question 26 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 26"
+    },
+    {
+      "id": "q47",
+      "stem": "Placeholder question 27 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 27"
+    },
+    {
+      "id": "q48",
+      "stem": "Placeholder question 28 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 28"
+    },
+    {
+      "id": "q49",
+      "stem": "Placeholder question 29 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 29"
+    },
+    {
+      "id": "q50",
+      "stem": "Placeholder question 30 for Class 12 English based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 30"
+    }
+  ]
+}

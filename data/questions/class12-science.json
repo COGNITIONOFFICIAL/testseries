@@ -1,0 +1,247 @@
+{
+  "class": "12",
+  "chapter": "Science",
+  "topic": "Science",
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "The de Broglie wavelength of an electron accelerated through a potential difference V is proportional to:",
+      "choices": [
+        "1/√V",
+        "√V",
+        "V",
+        "1/V"
+      ],
+      "answer": 0,
+      "explanation": "λ = h/p = h/√(2meV), thus λ ∝ 1/√V"
+    },
+    {
+      "id": "q2",
+      "stem": "In a p-n junction diode under forward bias, the width of depletion layer:",
+      "choices": [
+        "Decreases",
+        "Increases",
+        "Remains constant",
+        "First increases then decreases"
+      ],
+      "answer": 0,
+      "explanation": "Forward bias reduces potential barrier, decreasing depletion layer width"
+    },
+    {
+      "id": "q3",
+      "stem": "Which of these is a polar molecule?",
+      "choices": [
+        "H₂O",
+        "CO₂",
+        "CCl₄",
+        "BF₃"
+      ],
+      "answer": 0,
+      "explanation": "H₂O has bent structure with uneven charge distribution, making it polar"
+    },
+    {
+      "id": "q4",
+      "stem": "The half-life of a first-order reaction is:",
+      "choices": [
+        "Independent of initial concentration",
+        "Dependent on initial concentration",
+        "Zero",
+        "Infinite"
+      ],
+      "answer": 0,
+      "explanation": "For first-order reaction, t₁/₂ = 0.693/k, independent of initial concentration"
+    },
+    {
+      "id": "q5",
+      "stem": "DNA replication is:",
+      "choices": [
+        "Semiconservative",
+        "Conservative",
+        "Dispersive",
+        "Random"
+      ],
+      "answer": 0,
+      "explanation": "Meselson-Stahl experiment proved DNA replication is semiconservative"
+    },
+    {
+      "id": "q6",
+      "stem": "In electromagnetic induction, Lenz's law is a consequence of:",
+      "choices": [
+        "Conservation of energy",
+        "Conservation of charge",
+        "Conservation of momentum",
+        "Conservation of mass"
+      ],
+      "answer": 0,
+      "explanation": "Lenz's law follows from conservation of energy principle"
+    },
+    {
+      "id": "q7",
+      "stem": "The oxidation state of chromium in K₂Cr₂O₇ is:",
+      "choices": [
+        "+6",
+        "+3",
+        "+2",
+        "+4"
+      ],
+      "answer": 0,
+      "explanation": "In dichromate ion, chromium exists in +6 oxidation state"
+    },
+    {
+      "id": "q8",
+      "stem": "Which organelle is known as the powerhouse of the cell?",
+      "choices": [
+        "Mitochondria",
+        "Chloroplast",
+        "Golgi body",
+        "Endoplasmic reticulum"
+      ],
+      "answer": 0,
+      "explanation": "Mitochondria produce ATP through cellular respiration"
+    },
+    {
+      "id": "q9",
+      "stem": "The magnetic field inside a long solenoid is:",
+      "choices": [
+        "Uniform",
+        "Zero",
+        "Non-uniform",
+        "Infinite"
+      ],
+      "answer": 0,
+      "explanation": "Inside a long solenoid, magnetic field is uniform and parallel to axis"
+    },
+    {
+      "id": "q10",
+      "stem": "Which is the strongest intermolecular force?",
+      "choices": [
+        "Hydrogen bonding",
+        "Van der Waals forces",
+        "Dipole-dipole forces",
+        "London forces"
+      ],
+      "answer": 0,
+      "explanation": "Hydrogen bonding is the strongest among intermolecular forces"
+    },
+    {
+      "id": "q11",
+      "stem": "The photoelectric effect demonstrates:",
+      "choices": [
+        "Quantum nature of light",
+        "Wave nature of light",
+        "Both wave and particle nature",
+        "Neither wave nor particle nature"
+      ],
+      "answer": 0,
+      "explanation": "Photoelectric effect can only be explained by quantum (particle) nature of light"
+    },
+    {
+      "id": "q12",
+      "stem": "Which enzyme joins Okazaki fragments?",
+      "choices": [
+        "DNA ligase",
+        "DNA polymerase",
+        "Helicase",
+        "Primase"
+      ],
+      "answer": 0,
+      "explanation": "DNA ligase joins Okazaki fragments during DNA replication"
+    },
+    {
+      "id": "q13",
+      "stem": "In a p-type semiconductor, the majority carriers are:",
+      "choices": [
+        "Holes",
+        "Electrons",
+        "Protons",
+        "Neutrons"
+      ],
+      "answer": 0,
+      "explanation": "P-type semiconductors have holes as majority charge carriers"
+    },
+    {
+      "id": "q14",
+      "stem": "The equilibrium constant Kc for the reaction N₂ + 3H₂ ⇌ 2NH₃ has units:",
+      "choices": [
+        "L²/mol²",
+        "mol²/L²",
+        "No units",
+        "mol/L"
+      ],
+      "answer": 0,
+      "explanation": "Kc = [NH₃]²/[N₂][H₂]³ gives units L²/mol²"
+    },
+    {
+      "id": "q15",
+      "stem": "Which phase of cell cycle is longest?",
+      "choices": [
+        "Interphase",
+        "Prophase",
+        "Metaphase",
+        "Telophase"
+      ],
+      "answer": 0,
+      "explanation": "Interphase is longest, comprising G1, S, and G2 phases"
+    },
+    {
+      "id": "q16",
+      "stem": "The resolving power of a microscope is proportional to:",
+      "choices": [
+        "1/wavelength",
+        "wavelength",
+        "wavelength²",
+        "1/wavelength²"
+      ],
+      "answer": 0,
+      "explanation": "Resolving power increases as wavelength decreases"
+    },
+    {
+      "id": "q17",
+      "stem": "Ethanol and dimethyl ether are:",
+      "choices": [
+        "Functional isomers",
+        "Position isomers",
+        "Chain isomers",
+        "Stereoisomers"
+      ],
+      "answer": 0,
+      "explanation": "C₂H₅OH and CH₃OCH₃ differ in functional group position"
+    },
+    {
+      "id": "q18",
+      "stem": "What is the role of thymine in DNA?",
+      "choices": [
+        "Base pairs with adenine",
+        "Base pairs with guanine",
+        "Base pairs with cytosine",
+        "Does not base pair"
+      ],
+      "answer": 0,
+      "explanation": "Thymine forms two hydrogen bonds with adenine in DNA"
+    },
+    {
+      "id": "q19",
+      "stem": "The electric field inside a conductor is:",
+      "choices": [
+        "Zero",
+        "Maximum",
+        "Uniform",
+        "Variable"
+      ],
+      "answer": 0,
+      "explanation": "In electrostatic equilibrium, electric field inside conductor is zero"
+    },
+    {
+      "id": "q20",
+      "stem": "Which orbital has the lowest energy?",
+      "choices": [
+        "1s",
+        "2s",
+        "2p",
+        "3s"
+      ],
+      "answer": 0,
+      "explanation": "1s orbital has lowest energy according to aufbau principle"
+    }
+  ]
+}

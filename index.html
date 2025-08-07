@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognition Coaching Center - Quiz Platform</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            options: {
+                skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+            }
+        };
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <img src="assets/logo.png" alt="Cognition Logo" class="logo">
+                    <h1>Cognition Coaching Center</h1>
+                </div>
+                <div class="user-info">
+                    <span id="studentInfo"></span>
+                    <button id="logoutBtn" class="btn btn-secondary" style="display: none;">Logout</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Login Screen -->
+    <div id="loginScreen" class="screen active">
+        <div class="container">
+            <div class="login-container">
+                <div class="login-card">
+                    <div class="card-header">
+                        <h2>Student Login</h2>
+                        <p>Enter your access code to start the quiz</p>
+                    </div>
+                    <form id="loginForm" class="form">
+                        <div class="form-group">
+                            <label for="accessCode">Access Code</label>
+                            <input type="text" id="accessCode" required 
+                                   placeholder="Enter your access code">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            Login & Start Quiz
+                        </button>
+                    </form>
+                    <div id="loginError" class="error-message"></div>
+                    <div class="login-footer">
+                        <p>Don't have an access code? Contact your instructor.</p>
+                        <a href="admin.html" class="admin-link">Admin Panel</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dashboard Screen -->
+    <div id="dashboardScreen" class="screen">
+        <div class="container">
+            <div class="dashboard-header">
+                <h2>Available Topics</h2>
+                <p>Select a topic to start your 20-minute quiz</p>
+            </div>
+            <div id="topicsGrid" class="topics-grid">
+                <!-- Topics will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Quiz Screen -->
+    <div id="quizScreen" class="screen">
+        <div class="container">
+            <!-- Quiz Header -->
+            <div class="quiz-header">
+                <div class="quiz-progress">
+                    <div class="progress-bar">
+                        <div id="progressFill" class="progress-fill"></div>
+                    </div>
+                    <span id="questionCounter" class="question-counter">1 / 20</span>
+                </div>
+                <div class="quiz-timer">
+                    <span class="timer-label">Time Remaining:</span>
+                    <span id="timer" class="timer">20:00</span>
+                </div>
+            </div>
+
+            <!-- Question Container -->
+            <div class="question-container">
+                <div class="question-header">
+                    <h3 id="questionNumber">Question 1</h3>
+                </div>
+                <div class="question-content">
+                    <div id="questionStem" class="question-stem">
+                        <!-- Question text will be loaded here -->
+                    </div>
+                    <div id="choicesContainer" class="choices-container">
+                        <!-- Choices will be loaded here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <div class="quiz-navigation">
+                <button id="prevBtn" class="btn btn-secondary" disabled>
+                    ← Previous
+                </button>
+                <button id="nextBtn" class="btn btn-primary" disabled>
+                    Next →
+                </button>
+                <button id="submitBtn" class="btn btn-success" style="display: none;" disabled>
+                    Submit Quiz
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Results Screen -->
+    <div id="resultsScreen" class="screen">
+        <div class="container">
+            <div class="results-container">
+                <div class="results-header">
+                    <h2>Quiz Completed!</h2>
+                    <p>Here are your results</p>
+                </div>
+                
+                <div class="score-display">
+                    <div class="score-circle">
+                        <div class="score-content">
+                            <div id="finalScore" class="final-score">0</div>
+                            <div class="score-label">out of 20</div>
+                            <div id="scorePercentage" class="score-percentage">0%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-stats">
+                    <div class="stat-item correct">
+                        <div class="stat-number" id="correctCount">0</div>
+                        <div class="stat-label">Correct</div>
+                    </div>
+                    <div class="stat-item incorrect">
+                        <div class="stat-number" id="incorrectCount">0</div>
+                        <div class="stat-label">Incorrect</div>
+                    </div>
+                    <div class="stat-item unattempted">
+                        <div class="stat-number" id="unattemptedCount">0</div>
+                        <div class="stat-label">Unattempted</div>
+                    </div>
+                </div>
+
+                <div class="results-actions">
+                    <button id="reviewBtn" class="btn btn-primary">
+                        Review Answers
+                    </button>
+                    <button id="backToDashboardBtn" class="btn btn-secondary">
+                        Back to Topics
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Review Screen -->
+    <div id="reviewScreen" class="screen">
+        <div class="container">
+            <div class="review-header">
+                <h2>Answer Review</h2>
+                <p>Review your answers and correct solutions</p>
+                <button id="backToResultsBtn" class="btn btn-secondary">
+                    ← Back to Results
+                </button>
+            </div>
+            <div id="reviewContent" class="review-content">
+                <!-- Review content will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,367 @@
+{
+  "class": "7",
+  "chapter": "English",
+  "topic": "English",
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "Choose the correct form of the verb: He _____ to school every day.",
+      "choices": [
+        "goes",
+        "go",
+        "went",
+        "going"
+      ],
+      "answer": 0,
+      "explanation": "With third person singular (he/she/it), we use 'goes' in simple present tense"
+    },
+    {
+      "id": "q2",
+      "stem": "Identify the type of noun: 'honesty'",
+      "choices": [
+        "Abstract noun",
+        "Concrete noun",
+        "Proper noun",
+        "Collective noun"
+      ],
+      "answer": 0,
+      "explanation": "Honesty is an abstract noun as it refers to a quality or concept that cannot be perceived by senses"
+    },
+    {
+      "id": "q3",
+      "stem": "What is the antonym of 'courageous'?",
+      "choices": [
+        "Cowardly",
+        "Brave",
+        "Bold",
+        "Fearless"
+      ],
+      "answer": 0,
+      "explanation": "Cowardly means lacking courage, which is the opposite of courageous"
+    },
+    {
+      "id": "q4",
+      "stem": "Select the correct pronoun: _____ gave me this book yesterday.",
+      "choices": [
+        "She",
+        "Her",
+        "Hers",
+        "Herself"
+      ],
+      "answer": 0,
+      "explanation": "Subject pronoun 'She' is used as the subject of the sentence"
+    },
+    {
+      "id": "q5",
+      "stem": "Which sentence uses the correct article?",
+      "choices": [
+        "He is an honest man",
+        "He is a honest man",
+        "He is the honest man",
+        "He is honest man"
+      ],
+      "answer": 0,
+      "explanation": "We use 'an' before words beginning with vowel sounds; 'honest' begins with a silent 'h'"
+    },
+    {
+      "id": "q6",
+      "stem": "Identify the tense: 'I have been reading this book.'",
+      "choices": [
+        "Present perfect continuous",
+        "Present continuous",
+        "Present perfect",
+        "Simple present"
+      ],
+      "answer": 0,
+      "explanation": "Present perfect continuous shows an action that began in the past and is still continuing"
+    },
+    {
+      "id": "q7",
+      "stem": "Choose the correct preposition: The cat jumped _____ the wall.",
+      "choices": [
+        "over",
+        "in",
+        "at",
+        "by"
+      ],
+      "answer": 0,
+      "explanation": "'Over' is used to show movement across and above something"
+    },
+    {
+      "id": "q8",
+      "stem": "What type of sentence is this: 'How beautiful the sunset is!'",
+      "choices": [
+        "Exclamatory",
+        "Declarative",
+        "Interrogative",
+        "Imperative"
+      ],
+      "answer": 0,
+      "explanation": "This sentence expresses strong emotion and ends with an exclamation mark"
+    },
+    {
+      "id": "q9",
+      "stem": "Which word is a synonym for 'magnificent'?",
+      "choices": [
+        "Splendid",
+        "Ordinary",
+        "Simple",
+        "Plain"
+      ],
+      "answer": 0,
+      "explanation": "Splendid means impressive or magnificent"
+    },
+    {
+      "id": "q10",
+      "stem": "Identify the adverb in: 'She sang beautifully.'",
+      "choices": [
+        "Beautifully",
+        "Sang",
+        "She",
+        "None of these"
+      ],
+      "answer": 0,
+      "explanation": "'Beautifully' describes how she sang, making it an adverb"
+    },
+    {
+      "id": "q11",
+      "stem": "Choose the correct conjunction: I like tea _____ coffee.",
+      "choices": [
+        "and",
+        "but",
+        "or",
+        "so"
+      ],
+      "answer": 0,
+      "explanation": "'And' is used to join similar items or ideas"
+    },
+    {
+      "id": "q12",
+      "stem": "What is the plural of 'child'?",
+      "choices": [
+        "Children",
+        "Childs",
+        "Childrens",
+        "Child"
+      ],
+      "answer": 0,
+      "explanation": "'Children' is the irregular plural form of 'child'"
+    },
+    {
+      "id": "q13",
+      "stem": "Which sentence is in active voice?",
+      "choices": [
+        "Tom wrote the letter",
+        "The letter was written by Tom",
+        "The letter is written by Tom",
+        "The letter has been written"
+      ],
+      "answer": 0,
+      "explanation": "In active voice, the subject (Tom) performs the action (wrote)"
+    },
+    {
+      "id": "q14",
+      "stem": "What is the degree of comparison in: 'This is the best book I have read'?",
+      "choices": [
+        "Superlative",
+        "Positive",
+        "Comparative",
+        "None of these"
+      ],
+      "answer": 0,
+      "explanation": "'Best' is the superlative degree of 'good'"
+    },
+    {
+      "id": "q15",
+      "stem": "Identify the part of speech of 'quickly' in: 'He ran quickly.'",
+      "choices": [
+        "Adverb",
+        "Adjective",
+        "Verb",
+        "Noun"
+      ],
+      "answer": 0,
+      "explanation": "'Quickly' modifies the verb 'ran', making it an adverb"
+    },
+    {
+      "id": "q16",
+      "stem": "Which sentence shows the correct use of apostrophe?",
+      "choices": [
+        "The dog's bowl is empty",
+        "The dogs bowl is empty",
+        "The dogs' bowl is empty",
+        "The dog's' bowl is empty"
+      ],
+      "answer": 0,
+      "explanation": "Apostrophe 's' shows possession for a singular noun (one dog)"
+    },
+    {
+      "id": "q17",
+      "stem": "What type of pronoun is 'myself'?",
+      "choices": [
+        "Reflexive",
+        "Personal",
+        "Possessive",
+        "Demonstrative"
+      ],
+      "answer": 0,
+      "explanation": "'Myself' is a reflexive pronoun that refers back to the subject"
+    },
+    {
+      "id": "q18",
+      "stem": "Choose the correct spelling:",
+      "choices": [
+        "Necessary",
+        "Necesary",
+        "Necessery",
+        "Neccesary"
+      ],
+      "answer": 0,
+      "explanation": "'Necessary' is the correct spelling"
+    },
+    {
+      "id": "q19",
+      "stem": "What is the past participle of 'write'?",
+      "choices": [
+        "Written",
+        "Wrote",
+        "Write",
+        "Writing"
+      ],
+      "answer": 0,
+      "explanation": "'Written' is the past participle form of the verb 'write'"
+    },
+    {
+      "id": "q20",
+      "stem": "Identify the figure of speech: 'The wind howled in the night.'",
+      "choices": [
+        "Personification",
+        "Simile",
+        "Metaphor",
+        "Alliteration"
+      ],
+      "answer": 0,
+      "explanation": "The wind is given the human quality of howling, making it personification"
+    },
+    {
+      "id": "q21",
+      "stem": "Which sentence is punctuated correctly?",
+      "choices": [
+        "\"Where are you going?\" asked Mary.",
+        "\"Where are you going\" asked Mary.",
+        "\"Where are you going?\" Asked Mary.",
+        "\"Where are you going?\" asked mary."
+      ],
+      "answer": 0,
+      "explanation": "Question mark inside quotes, comma before dialogue tag, period at end"
+    },
+    {
+      "id": "q22",
+      "stem": "What is the correct order of adjectives: 'a ___ ___ hat'?",
+      "choices": [
+        "small black",
+        "black small",
+        "small and black",
+        "black and small"
+      ],
+      "answer": 0,
+      "explanation": "Size comes before color in the order of adjectives"
+    },
+    {
+      "id": "q23",
+      "stem": "Choose the correct homophone: The ship sank beneath the _____.",
+      "choices": [
+        "waves",
+        "waives",
+        "weaves",
+        "wanes"
+      ],
+      "answer": 0,
+      "explanation": "'Waves' refers to moving water; 'waives' means to give up a right"
+    },
+    {
+      "id": "q24",
+      "stem": "What type of sentence is: 'If it rains, take an umbrella'?",
+      "choices": [
+        "Conditional",
+        "Imperative",
+        "Declarative",
+        "Interrogative"
+      ],
+      "answer": 0,
+      "explanation": "The sentence expresses a condition and its result"
+    },
+    {
+      "id": "q25",
+      "stem": "Identify the main clause: 'Although it was raining, we went out.'",
+      "choices": [
+        "we went out",
+        "although it was raining",
+        "it was raining",
+        "we went"
+      ],
+      "answer": 0,
+      "explanation": "'We went out' can stand alone as a complete thought"
+    },
+    {
+      "id": "q26",
+      "stem": "Which word is correctly hyphenated?",
+      "choices": [
+        "well-known",
+        "wellknown",
+        "well known",
+        "well/known"
+      ],
+      "answer": 0,
+      "explanation": "Compound adjectives before nouns are usually hyphenated"
+    },
+    {
+      "id": "q27",
+      "stem": "What is the correct collective noun: A _____ of wolves",
+      "choices": [
+        "pack",
+        "herd",
+        "flock",
+        "school"
+      ],
+      "answer": 0,
+      "explanation": "'Pack' is the correct collective noun for wolves"
+    },
+    {
+      "id": "q28",
+      "stem": "Choose the correct prefix for 'legal' to make it negative:",
+      "choices": [
+        "il-",
+        "in-",
+        "un-",
+        "dis-"
+      ],
+      "answer": 0,
+      "explanation": "'Il-' is used before words beginning with 'l' to make them negative"
+    },
+    {
+      "id": "q29",
+      "stem": "What type of verb is 'seem' in: 'She seems happy'?",
+      "choices": [
+        "Linking verb",
+        "Action verb",
+        "Helping verb",
+        "Modal verb"
+      ],
+      "answer": 0,
+      "explanation": "'Seems' connects the subject to its complement without showing action"
+    },
+    {
+      "id": "q30",
+      "stem": "Which sentence uses parallel structure?",
+      "choices": [
+        "He likes swimming, reading, and to paint",
+        "He likes swimming, reading, and painting",
+        "He likes to swim, reads, and to paint",
+        "He likes swimming, to read, and paints"
+      ],
+      "answer": 1,
+      "explanation": "All verbs should be in the same form (gerunds) for parallel structure"
+    }
+  ]
+}

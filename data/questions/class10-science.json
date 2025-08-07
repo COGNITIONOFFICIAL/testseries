@@ -1,0 +1,727 @@
+{
+  "class": "10",
+  "chapter": "Science",
+  "topic": "Physics, Chemistry and Biology",
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "In a circuit, what is the function of a resistor?",
+      "choices": [
+        "Controls current flow",
+        "Increases voltage",
+        "Stores energy",
+        "Generates electricity"
+      ],
+      "answer": 0,
+      "explanation": "A resistor controls/limits the flow of current in a circuit by converting electrical energy to heat."
+    },
+    {
+      "id": "q2",
+      "stem": "Which of these is NOT a function of the human digestive system?",
+      "choices": [
+        "Gas exchange",
+        "Absorption",
+        "Digestion",
+        "Peristalsis"
+      ],
+      "answer": 0,
+      "explanation": "Gas exchange is a function of the respiratory system, not the digestive system."
+    },
+    {
+      "id": "q3",
+      "stem": "The atomic number of sodium is 11. Its electronic configuration is:",
+      "choices": [
+        "2,8,1",
+        "2,8,2",
+        "2,7,2",
+        "2,8,3"
+      ],
+      "answer": 0,
+      "explanation": "Sodium (atomic number 11) has 11 electrons arranged as: 2 in K shell, 8 in L shell, and 1 in M shell."
+    },
+    {
+      "id": "q4",
+      "stem": "The process of conversion of ethanol to ethanoic acid is an example of:",
+      "choices": [
+        "Oxidation",
+        "Reduction",
+        "Hydrolysis",
+        "Dehydration"
+      ],
+      "answer": 0,
+      "explanation": "Ethanol is oxidized to ethanoic acid in presence of oxygen and acidified potassium dichromate."
+    },
+    {
+      "id": "q5",
+      "stem": "Which mirror is used in a vehicle's headlights?",
+      "choices": [
+        "Concave",
+        "Convex",
+        "Plane",
+        "Cylindrical"
+      ],
+      "answer": 0,
+      "explanation": "Concave mirrors are used in vehicle headlights as they can focus parallel light rays into a powerful beam."
+    },
+    {
+      "id": "q6",
+      "stem": "In a food chain, which organisms are called producers?",
+      "choices": [
+        "Green plants",
+        "Herbivores",
+        "Carnivores",
+        "Decomposers"
+      ],
+      "answer": 0,
+      "explanation": "Green plants are producers as they produce their own food through photosynthesis."
+    },
+    {
+      "id": "q7",
+      "stem": "The SI unit of electric potential difference is:",
+      "choices": [
+        "Volt",
+        "Ampere",
+        "Ohm",
+        "Watt"
+      ],
+      "answer": 0,
+      "explanation": "Volt (V) is the SI unit of electric potential difference or voltage."
+    },
+    {
+      "id": "q8",
+      "stem": "Which metal is used to galvanize iron?",
+      "choices": [
+        "Zinc",
+        "Copper",
+        "Aluminum",
+        "Tin"
+      ],
+      "answer": 0,
+      "explanation": "Zinc is used to coat iron in galvanization to prevent rusting."
+    },
+    {
+      "id": "q9",
+      "stem": "Where does most of digestion occur in humans?",
+      "choices": [
+        "Small intestine",
+        "Stomach",
+        "Large intestine",
+        "Mouth"
+      ],
+      "answer": 0,
+      "explanation": "Most digestion and absorption occurs in the small intestine due to its length and presence of enzymes."
+    },
+    {
+      "id": "q10",
+      "stem": "What type of reaction is photosynthesis?",
+      "choices": [
+        "Endothermic",
+        "Exothermic",
+        "Displacement",
+        "Decomposition"
+      ],
+      "answer": 0,
+      "explanation": "Photosynthesis is an endothermic reaction as it absorbs energy from sunlight."
+    },
+    {
+      "id": "q11",
+      "stem": "Which part of the human eye controls the amount of light entering?",
+      "choices": [
+        "Iris",
+        "Retina",
+        "Cornea",
+        "Lens"
+      ],
+      "answer": 0,
+      "explanation": "The iris controls the size of the pupil, thereby regulating the amount of light entering the eye."
+    },
+    {
+      "id": "q12",
+      "stem": "What is the main function of ozone in the atmosphere?",
+      "choices": [
+        "Absorbs UV radiation",
+        "Maintains temperature",
+        "Causes rain",
+        "Reflects visible light"
+      ],
+      "answer": 0,
+      "explanation": "Ozone layer absorbs harmful ultraviolet radiation from the sun, protecting life on Earth."
+    },
+    {
+      "id": "q13",
+      "stem": "Which blood vessels carry blood away from the heart?",
+      "choices": [
+        "Arteries",
+        "Veins",
+        "Capillaries",
+        "Venules"
+      ],
+      "answer": 0,
+      "explanation": "Arteries carry blood away from the heart to different parts of the body."
+    },
+    {
+      "id": "q14",
+      "stem": "The pH of a neutral solution is:",
+      "choices": [
+        "7",
+        "0",
+        "14",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "A neutral solution has a pH of 7, with equal concentration of H⁺ and OH⁻ ions."
+    },
+    {
+      "id": "q15",
+      "stem": "What is the function of chloroplasts in plants?",
+      "choices": [
+        "Photosynthesis",
+        "Respiration",
+        "Protein synthesis",
+        "Storage"
+      ],
+      "answer": 0,
+      "explanation": "Chloroplasts contain chlorophyll and are the sites of photosynthesis in plant cells."
+    },
+    {
+      "id": "q16",
+      "stem": "The magnetic field inside a solenoid is:",
+      "choices": [
+        "Uniform",
+        "Zero",
+        "Variable",
+        "Circular"
+      ],
+      "answer": 0,
+      "explanation": "The magnetic field inside a solenoid is uniform and parallel to its axis."
+    },
+    {
+      "id": "q17",
+      "stem": "Which of these is a homologous series?",
+      "choices": [
+        "Alkanes",
+        "Alcohols and acids",
+        "Alkanes and alkenes",
+        "Aldehydes and ketones"
+      ],
+      "answer": 0,
+      "explanation": "Alkanes form a homologous series with same general formula (CnH2n+2) and similar properties."
+    },
+    {
+      "id": "q18",
+      "stem": "The process of removal of water from hydrated salts is called:",
+      "choices": [
+        "Efflorescence",
+        "Deliquescence",
+        "Sublimation",
+        "Evaporation"
+      ],
+      "answer": 0,
+      "explanation": "Efflorescence is the process where hydrated salts lose their water of crystallization to the atmosphere."
+    },
+    {
+      "id": "q19",
+      "stem": "Which hormone is responsible for phototropism in plants?",
+      "choices": [
+        "Auxin",
+        "Gibberellin",
+        "Cytokinin",
+        "Ethylene"
+      ],
+      "answer": 0,
+      "explanation": "Auxin causes cell elongation on the darker side of the stem, resulting in phototropism."
+    },
+    {
+      "id": "q20",
+      "stem": "The focal length of a convex lens is:",
+      "choices": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "Infinite"
+      ],
+      "answer": 0,
+      "explanation": "Convex lenses are converging lenses and have positive focal length."
+    },
+    {
+      "id": "q21", 
+      "stem": "The functional group present in ethanol is:",
+      "choices": [
+        "-OH",
+        "-COOH",
+        "-CHO",
+        "-CO-"
+      ],
+      "answer": 0,
+      "explanation": "Ethanol (C₂H₅OH) contains the hydroxyl (-OH) functional group"
+    },
+    {
+      "id": "q22",
+      "stem": "Which organelle is called the powerhouse of the cell?",
+      "choices": [
+        "Mitochondria",
+        "Nucleus",
+        "Chloroplast",
+        "Golgi body"
+      ],
+      "answer": 0,
+      "explanation": "Mitochondria produce ATP through cellular respiration, hence called powerhouse"
+    },
+    {
+      "id": "q23",
+      "stem": "The image formed by a plane mirror is:",
+      "choices": [
+        "Virtual and erect",
+        "Real and inverted",
+        "Real and erect",
+        "Virtual and inverted"
+      ],
+      "answer": 0,
+      "explanation": "Plane mirrors form virtual, erect images of same size as object"
+    },
+    {
+      "id": "q24",
+      "stem": "The process by which plants lose water in form of vapor is:",
+      "choices": [
+        "Transpiration",
+        "Respiration",
+        "Photosynthesis",
+        "Condensation"
+      ],
+      "answer": 0,
+      "explanation": "Transpiration is loss of water through stomata as water vapor"
+    },
+    {
+      "id": "q25",
+      "stem": "Which of these is a balanced chemical equation?",
+      "choices": [
+        "2H₂ + O₂ → 2H₂O",
+        "H₂ + O₂ → H₂O",
+        "2H₂ + O₂ → H₂O",
+        "H₂ + 2O₂ → H₂O"
+      ],
+      "answer": 0,
+      "explanation": "2H₂ + O₂ → 2H₂O has equal atoms on both sides"
+    },
+    {
+      "id": "q26",
+      "stem": "The SI unit of electric current is:",
+      "choices": [
+        "Ampere",
+        "Volt",
+        "Ohm",
+        "Watt"
+      ],
+      "answer": 0,
+      "explanation": "Ampere (A) is the SI unit of electric current"
+    },
+    {
+      "id": "q27",
+      "stem": "Which part of human brain controls involuntary actions?",
+      "choices": [
+        "Medulla oblongata",
+        "Cerebrum",
+        "Cerebellum",
+        "Hypothalamus"
+      ],
+      "answer": 0,
+      "explanation": "Medulla oblongata controls involuntary actions like breathing, heartbeat"
+    },
+    {
+      "id": "q28",
+      "stem": "An element with atomic number 11 belongs to which group?",
+      "choices": [
+        "Alkali metals",
+        "Halogens",
+        "Noble gases",
+        "Alkaline earth metals"
+      ],
+      "answer": 0,
+      "explanation": "Element with atomic number 11 is sodium, an alkali metal"
+    },
+    {
+      "id": "q29",
+      "stem": "What happens to light when it passes from air to glass?",
+      "choices": [
+        "Speed decreases",
+        "Speed increases",
+        "Speed remains same",
+        "Light stops"
+      ],
+      "answer": 0,
+      "explanation": "Light slows down when entering denser medium like glass"
+    },
+    {
+      "id": "q30",
+      "stem": "Which of these represents Ohm's law?",
+      "choices": [
+        "V = IR",
+        "V = I/R",
+        "R = V/I",
+        "I = V/R"
+      ],
+      "answer": 0,
+      "explanation": "Ohm's law states voltage equals current times resistance (V = IR)"
+    },
+    {
+      "id": "q31",
+      "stem": "Mendel's law of independent assortment applies to:",
+      "choices": [
+        "Different traits",
+        "Same trait",
+        "Linked genes",
+        "Sex chromosomes only"
+      ],
+      "answer": 0,
+      "explanation": "Law states different traits are inherited independently of each other"
+    },
+    {
+      "id": "q32",
+      "stem": "The pH of a neutral solution is:",
+      "choices": [
+        "7",
+        "0",
+        "14",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "pH 7 represents neutral solution, below 7 is acidic, above 7 is basic"
+    },
+    {
+      "id": "q33",
+      "stem": "What type of mirror is used in vehicle side-view mirrors?",
+      "choices": [
+        "Convex",
+        "Concave",
+        "Plane",
+        "Cylindrical"
+      ],
+      "answer": 0,
+      "explanation": "Convex mirrors give wider field of view and diminished image"
+    },
+    {
+      "id": "q34",
+      "stem": "The main function of white blood cells is:",
+      "choices": [
+        "Fight infection",
+        "Transport oxygen",
+        "Blood clotting",
+        "Energy production"
+      ],
+      "answer": 0,
+      "explanation": "WBCs are part of immune system and fight infections"
+    },
+    {
+      "id": "q35",
+      "stem": "Which gas causes greenhouse effect?",
+      "choices": [
+        "Carbon dioxide",
+        "Oxygen",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "answer": 0,
+      "explanation": "CO₂ traps heat in atmosphere causing greenhouse effect"
+    },
+    {
+      "id": "q36",
+      "stem": "The focal length of human eye is:",
+      "choices": [
+        "Variable",
+        "Fixed",
+        "Zero",
+        "Infinite"
+      ],
+      "answer": 0,
+      "explanation": "Eye lens can change shape to vary focal length for focusing"
+    },
+    {
+      "id": "q37",
+      "stem": "Which metal is liquid at room temperature?",
+      "choices": [
+        "Mercury",
+        "Iron",
+        "Copper",
+        "Aluminum"
+      ],
+      "answer": 0,
+      "explanation": "Mercury is the only metal liquid at room temperature"
+    },
+    {
+      "id": "q38",
+      "stem": "The process of splitting nucleus is called:",
+      "choices": [
+        "Nuclear fission",
+        "Nuclear fusion",
+        "Beta decay",
+        "Alpha decay"
+      ],
+      "answer": 0,
+      "explanation": "Nuclear fission is splitting of heavy nucleus into lighter nuclei"
+    },
+    {
+      "id": "q39",
+      "stem": "Which hormone regulates blood sugar?",
+      "choices": [
+        "Insulin",
+        "Thyroxine",
+        "Growth hormone",
+        "Adrenaline"
+      ],
+      "answer": 0,
+      "explanation": "Insulin helps cells absorb glucose from blood"
+    },
+    {
+      "id": "q40",
+      "stem": "The atomic number represents:",
+      "choices": [
+        "Number of protons",
+        "Number of neutrons",
+        "Number of electrons",
+        "Sum of protons and neutrons"
+      ],
+      "answer": 0,
+      "explanation": "Atomic number equals number of protons in nucleus"
+    },
+    {
+      "id": "q41",
+      "stem": "Which part of the human eye forms the image of objects we see?",
+      "choices": [
+        "Retina",
+        "Cornea",
+        "Iris",
+        "Pupil"
+      ],
+      "answer": 0,
+      "explanation": "Retina contains light-sensitive cells that form images"
+    },
+    {
+      "id": "q42",
+      "stem": "The pH of a neutral solution is:",
+      "choices": [
+        "7",
+        "0",
+        "14",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "pH 7 indicates neutral solution, neither acidic nor basic"
+    },
+    {
+      "id": "q43",
+      "stem": "What is the direction of magnetic field lines inside a bar magnet?",
+      "choices": [
+        "North to South",
+        "South to North",
+        "East to West",
+        "West to East"
+      ],
+      "answer": 0,
+      "explanation": "Inside magnet, field lines go from North to South pole"
+    },
+    {
+      "id": "q44",
+      "stem": "Which organism causes malaria?",
+      "choices": [
+        "Plasmodium",
+        "Bacteria",
+        "Virus",
+        "Fungi"
+      ],
+      "answer": 0,
+      "explanation": "Plasmodium parasite transmitted by female Anopheles mosquito"
+    },
+    {
+      "id": "q45",
+      "stem": "The atomic number of an element is equal to:",
+      "choices": [
+        "Number of protons",
+        "Number of neutrons",
+        "Number of electrons",
+        "Mass number"
+      ],
+      "answer": 0,
+      "explanation": "Atomic number equals number of protons in nucleus"
+    },
+    {
+      "id": "q46",
+      "stem": "Ohm's law states that current is:",
+      "choices": [
+        "Directly proportional to voltage",
+        "Inversely proportional to voltage",
+        "Equal to voltage",
+        "Independent of voltage"
+      ],
+      "answer": 0,
+      "explanation": "V = IR, current directly proportional to voltage"
+    },
+    {
+      "id": "q47",
+      "stem": "Which of these is a homologous series of hydrocarbons?",
+      "choices": [
+        "Alkanes",
+        "Alcohols",
+        "Acids",
+        "Bases"
+      ],
+      "answer": 0,
+      "explanation": "Alkanes (CnH2n+2) form homologous series"
+    },
+    {
+      "id": "q48",
+      "stem": "The image formed by plane mirror is:",
+      "choices": [
+        "Virtual and erect",
+        "Real and erect",
+        "Virtual and inverted",
+        "Real and inverted"
+      ],
+      "answer": 0,
+      "explanation": "Plane mirror forms virtual, erect, same size image"
+    },
+    {
+      "id": "q49",
+      "stem": "In which form is glucose stored in our body?",
+      "choices": [
+        "Glycogen",
+        "Starch",
+        "Cellulose",
+        "Protein"
+      ],
+      "answer": 0,
+      "explanation": "Glucose stored as glycogen in liver and muscles"
+    },
+    {
+      "id": "q50",
+      "stem": "What happens during rusting of iron?",
+      "choices": [
+        "Oxidation",
+        "Reduction",
+        "Neutralization",
+        "Decomposition"
+      ],
+      "answer": 0,
+      "explanation": "Iron oxidizes to form Fe2O3·xH2O (rust)"
+    },
+    {
+      "id": "q51",
+      "stem": "The SI unit of electric current is:",
+      "choices": [
+        "Ampere",
+        "Volt",
+        "Ohm",
+        "Watt"
+      ],
+      "answer": 0,
+      "explanation": "Ampere measures rate of flow of electric charge"
+    },
+    {
+      "id": "q52",
+      "stem": "Which tissue conducts water in plants?",
+      "choices": [
+        "Xylem",
+        "Phloem",
+        "Parenchyma",
+        "Sclerenchyma"
+      ],
+      "answer": 0,
+      "explanation": "Xylem transports water and minerals upward"
+    },
+    {
+      "id": "q53",
+      "stem": "The chemical formula of baking soda is:",
+      "choices": [
+        "NaHCO₃",
+        "Na₂CO₃",
+        "CaCO₃",
+        "NaCl"
+      ],
+      "answer": 0,
+      "explanation": "Sodium bicarbonate (NaHCO₃) is baking soda"
+    },
+    {
+      "id": "q54",
+      "stem": "What type of mirror is used in vehicle side-view mirrors?",
+      "choices": [
+        "Convex",
+        "Concave",
+        "Plane",
+        "Cylindrical"
+      ],
+      "answer": 0,
+      "explanation": "Convex mirrors give wider field of view"
+    },
+    {
+      "id": "q55",
+      "stem": "During photosynthesis, plants produce:",
+      "choices": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "answer": 0,
+      "explanation": "Oxygen is released as byproduct of photosynthesis"
+    },
+    {
+      "id": "q56",
+      "stem": "What is the valency of carbon in methane (CH₄)?",
+      "choices": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Carbon forms 4 covalent bonds in methane"
+    },
+    {
+      "id": "q57",
+      "stem": "Which color of light deviates least in a prism?",
+      "choices": [
+        "Red",
+        "Blue",
+        "Green",
+        "Violet"
+      ],
+      "answer": 0,
+      "explanation": "Red light has longest wavelength, least deviation"
+    },
+    {
+      "id": "q58",
+      "stem": "What controls the entry of light into human eye?",
+      "choices": [
+        "Pupil",
+        "Retina",
+        "Cornea",
+        "Lens"
+      ],
+      "answer": 0,
+      "explanation": "Pupil size changes to control light entry"
+    },
+    {
+      "id": "q59",
+      "stem": "The atomic mass of an element is:",
+      "choices": [
+        "Protons + Neutrons",
+        "Protons + Electrons",
+        "Neutrons + Electrons",
+        "Protons only"
+      ],
+      "answer": 0,
+      "explanation": "Mass number = number of protons + neutrons"
+    },
+    {
+      "id": "q60",
+      "stem": "Which hormone regulates blood sugar in humans?",
+      "choices": [
+        "Insulin",
+        "Thyroxine",
+        "Adrenaline",
+        "Growth hormone"
+      ],
+      "answer": 0,
+      "explanation": "Insulin controls glucose levels in blood"
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "class": "12",
+  "chapter": "Mathematics",
+  "topic": "Mathematics",
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "If y = x sin x, then dy/dx equals:",
+      "choices": [
+        "sin x + x cos x",
+        "cos x + x sin x",
+        "sin x - x cos x",
+        "cos x - x sin x"
+      ],
+      "answer": 0,
+      "explanation": "Using product rule: d/dx(x sin x) = x·d/dx(sin x) + sin x·d/dx(x) = x cos x + sin x"
+    },
+    {
+      "id": "q2",
+      "stem": "The order of the differential equation d²y/dx² + 3dy/dx + 2y = 0 is:",
+      "choices": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "The order of a differential equation is the highest derivative present. Here, the highest derivative is d²y/dx², so order is 2."
+    },
+    {
+      "id": "q3",
+      "stem": "If A is a 3×3 matrix and |A| = 8, then |2A| equals:",
+      "choices": [
+        "64",
+        "16",
+        "32",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "For a 3×3 matrix, if each element is multiplied by k, determinant is multiplied by k³. So |2A| = 2³|A| = 8×8 = 64"
+    },
+    {
+      "id": "q4",
+      "stem": "∫(1/x)dx equals:",
+      "choices": [
+        "ln|x| + C",
+        "x ln|x| + C",
+        "ln x + C",
+        "1/ln x + C"
+      ],
+      "answer": 0,
+      "explanation": "The integral of 1/x is ln|x| + C. The absolute value ensures the solution works for negative x values."
+    },
+    {
+      "id": "q5",
+      "stem": "The direction vector of the line x = 2t, y = 3t, z = 4t is:",
+      "choices": [
+        "<2,3,4>",
+        "<1,1,1>",
+        "<2,2,2>",
+        "<1,2,3>"
+      ],
+      "answer": 0,
+      "explanation": "The direction vector is formed by the coefficients of parameter t in the parametric equations."
+    },
+    {
+      "id": "q6",
+      "stem": "For vectors a and b, if |a| = 3, |b| = 4, and a·b = 6, then the angle between them is:",
+      "choices": [
+        "cos⁻¹(1/2)",
+        "cos⁻¹(1/3)",
+        "cos⁻¹(2/3)",
+        "cos⁻¹(3/4)"
+      ],
+      "answer": 0,
+      "explanation": "Using a·b = |a||b|cos θ: 6 = 3·4·cos θ, so cos θ = 1/2"
+    },
+    {
+      "id": "q7",
+      "stem": "If f(x) = x³ - 3x + 1, then f'(1) equals:",
+      "choices": [
+        "0",
+        "1",
+        "3",
+        "-1"
+      ],
+      "answer": 0,
+      "explanation": "f'(x) = 3x² - 3. At x = 1: f'(1) = 3(1)² - 3 = 3 - 3 = 0"
+    },
+    {
+      "id": "q8",
+      "stem": "The value of ∫₀¹ x²dx is:",
+      "choices": [
+        "1/3",
+        "1/2",
+        "1",
+        "2/3"
+      ],
+      "answer": 0,
+      "explanation": "∫x²dx = x³/3. Evaluating from 0 to 1: (1³/3) - (0³/3) = 1/3"
+    },
+    {
+      "id": "q9",
+      "stem": "If A and B are sets, then (A∪B)' equals:",
+      "choices": [
+        "A'∩B'",
+        "A'∪B'",
+        "A∩B'",
+        "A'∩B"
+      ],
+      "answer": 0,
+      "explanation": "By De Morgan's Law, the complement of a union equals the intersection of complements."
+    },
+    {
+      "id": "q10",
+      "stem": "The equation of the plane passing through (1,2,3) and parallel to xy-plane is:",
+      "choices": [
+        "z = 3",
+        "z = 0",
+        "x = 1",
+        "y = 2"
+      ],
+      "answer": 0,
+      "explanation": "A plane parallel to xy-plane has equation z = k. Since it passes through (1,2,3), k = 3."
+    },
+    {
+      "id": "q11",
+      "stem": "If P(A) = 0.4 and P(B) = 0.5, and A,B are independent, then P(A∩B) equals:",
+      "choices": [
+        "0.20",
+        "0.90",
+        "0.45",
+        "0.10"
+      ],
+      "answer": 0,
+      "explanation": "For independent events, P(A∩B) = P(A)×P(B) = 0.4×0.5 = 0.20"
+    },
+    {
+      "id": "q12",
+      "stem": "The principal value of sin⁻¹(1/2) lies in:",
+      "choices": [
+        "[0, π/2]",
+        "[-π/2, 0]",
+        "[π/2, π]",
+        "[-π, -π/2]"
+      ],
+      "answer": 0,
+      "explanation": "Principal value of sin⁻¹x lies in [-π/2, π/2], and since 1/2 is positive, sin⁻¹(1/2) lies in [0, π/2]"
+    },
+    {
+      "id": "q13",
+      "stem": "If z = 1 + i, then |z|² equals:",
+      "choices": [
+        "2",
+        "1",
+        "√2",
+        "-2"
+      ],
+      "answer": 0,
+      "explanation": "For z = a + bi, |z|² = a² + b². Here |z|² = 1² + 1² = 2"
+    },
+    {
+      "id": "q14",
+      "stem": "The solution of dy/dx = x + y with y(0) = 1 is:",
+      "choices": [
+        "y = 2e^x - x - 1",
+        "y = e^x - x - 1",
+        "y = e^x + x + 1",
+        "y = 2e^x + x + 1"
+      ],
+      "answer": 0,
+      "explanation": "This is a linear first order differential equation. Solving using integrating factor method gives y = 2e^x - x - 1"
+    },
+    {
+      "id": "q15",
+      "stem": "lim(x→0) (sin x)/x equals:",
+      "choices": [
+        "1",
+        "0",
+        "∞",
+        "Does not exist"
+      ],
+      "answer": 0,
+      "explanation": "This is a standard limit. Both L'Hôpital's rule and geometric reasoning show that lim(x→0) (sin x)/x = 1"
+    },
+    {
+      "id": "q16",
+      "stem": "The area of the region bounded by y = x² and y = x is:",
+      "choices": [
+        "1/6",
+        "1/3",
+        "1/2",
+        "1/4"
+      ],
+      "answer": 0,
+      "explanation": "Intersection points are at x = 0,1. Area = ∫₀¹ (x - x²)dx = [x²/2 - x³/3]₀¹ = 1/6"
+    },
+    {
+      "id": "q17",
+      "stem": "If A is a 2×2 matrix and A² = I, then the characteristic equation of A is:",
+      "choices": [
+        "λ² - 1 = 0",
+        "λ² + 1 = 0",
+        "λ - 1 = 0",
+        "λ + 1 = 0"
+      ],
+      "answer": 0,
+      "explanation": "If A² = I, then eigenvalues λ satisfy λ² = 1, so characteristic equation is λ² - 1 = 0"
+    },
+    {
+      "id": "q18",
+      "stem": "The equation of normal to the curve y = x² at (1,1) is:",
+      "choices": [
+        "x + 2y = 3",
+        "2x + y = 3",
+        "x - 2y = -1",
+        "2x - y = 1"
+      ],
+      "answer": 0,
+      "explanation": "Slope of tangent at (1,1) is 2. Normal slope is -1/2. Using point-slope form: y - 1 = (-1/2)(x - 1)"
+    },
+    {
+      "id": "q19",
+      "stem": "For the series Σ(1/n²), n from 1 to ∞:",
+      "choices": [
+        "Converges to π²/6",
+        "Diverges",
+        "Converges to 1",
+        "Converges to π²/4"
+      ],
+      "answer": 0,
+      "explanation": "This is a p-series with p=2. It converges and the sum equals π²/6 (Basel problem)"
+    },
+    {
+      "id": "q20",
+      "stem": "If f(x) = |x - 1|, then f'(1) equals:",
+      "choices": [
+        "Does not exist",
+        "0",
+        "1",
+        "-1"
+      ],
+      "answer": 0,
+      "explanation": "The absolute value function is not differentiable at its corner point (where inside expression = 0), which occurs at x = 1"
+    },
+    {
+      "id": "q21",
+      "stem": "Placeholder question 21 for Class 12 Mathematics based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 21"
+    },
+    {
+      "id": "q22",
+      "stem": "Placeholder question 22 for Class 12 Mathematics based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 22"
+    },
+    {
+      "id": "q23",
+      "stem": "Placeholder question 23 for Class 12 Mathematics based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 23"
+    },
+    {
+      "id": "q24",
+      "stem": "Placeholder question 24 for Class 12 Mathematics based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 24"
+    },
+    {
+      "id": "q25",
+      "stem": "Placeholder question 25 for Class 12 Mathematics based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 25"
+    },
+    {
+      "id": "q26",
+      "stem": "Placeholder question 26 for Class 12 Mathematics based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 26"
+    },
+    {
+      "id": "q27",
+      "stem": "Placeholder question 27 for Class 12 Mathematics based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 27"
+    },
+    {
+      "id": "q28",
+      "stem": "Placeholder question 28 for Class 12 Mathematics based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 28"
+    },
+    {
+      "id": "q29",
+      "stem": "Placeholder question 29 for Class 12 Mathematics based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 29"
+    },
+    {
+      "id": "q30",
+      "stem": "Placeholder question 30 for Class 12 Mathematics based on ISC/CBSE syllabus",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Placeholder explanation for question 30"
+    }
+  ]
+}

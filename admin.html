@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Cognition Coaching Center</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <img src="assets/logo.png" alt="Cognition Logo" class="logo">
+                    <h1>Cognition Coaching Center - Admin</h1>
+                </div>
+                <div class="user-info">
+                    <button id="adminLogoutBtn" class="btn btn-secondary" style="display: none;">Logout</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Admin Login Screen -->
+    <div id="adminLoginScreen" class="screen active">
+        <div class="container">
+            <div class="login-container">
+                <div class="login-card">
+                    <div class="card-header">
+                        <h2>Admin Login</h2>
+                        <p>Enter admin credentials to access the panel</p>
+                    </div>
+                    <form id="adminLoginForm" class="form">
+                        <div class="form-group">
+                            <label for="adminUsername">Username</label>
+                            <input type="text" id="adminUsername" required placeholder="admin">
+                        </div>
+                        <div class="form-group">
+                            <label for="adminPassword">Password</label>
+                            <input type="password" id="adminPassword" required placeholder="admin">
+                        </div>
+                        <button type="button" id="adminLoginBtn" class="btn btn-primary btn-full">
+                            Login to Admin Panel
+                        </button>
+                    </form>
+                    <div id="adminLoginError" class="error-message"></div>
+                    <div class="login-footer">
+                        <a href="index.html" class="admin-link">← Back to Student Portal</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Admin Panel Screen -->
+    <div id="adminPanelScreen" class="screen">
+        <div class="container">
+            <div class="admin-header">
+                <h2>Generate Student Access Code</h2>
+                <p>Create access codes for students with specific topic permissions</p>
+            </div>
+
+            <div class="admin-content">
+                <div class="form-card">
+                    <form id="codeGeneratorForm" class="form">
+                        <div class="form-group">
+                            <label for="studentName">Student Name</label>
+                            <input type="text" id="studentName" required 
+                                   placeholder="Enter student's full name">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Available Topics (Select topics to assign to this student)</label>
+                            <div id="topicsContainer" class="topics-container">
+                                <p class="loading-text">Loading available topics...</p>
+                            </div>
+                        </div>
+
+                        <button type="button" id="generateCodeBtn" class="btn btn-primary btn-full">
+                            Generate Access Code
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Generated Code Display -->
+                <div id="generatedCodeSection" class="code-section" style="display: none;">
+                    <div class="code-card">
+                        <div class="card-header">
+                            <h3>Generated Access Code</h3>
+                            <p>Copy this code and add it to data/codes.txt</p>
+                        </div>
+                        <div class="code-display">
+                            <textarea id="generatedCode" readonly class="code-textarea"></textarea>
+                        </div>
+                        <div class="code-actions">
+                            <button id="copyCodeBtn" class="btn btn-primary">
+                                📋 Copy Code
+                            </button>
+                            <button id="generateNewBtn" class="btn btn-secondary">
+                                Generate New Code
+                            </button>
+                        </div>
+                        <div class="code-instructions">
+                            <h4>Next Steps:</h4>
+                            <ol>
+                                <li>Copy the access code above</li>
+                                <li>Open <code>data/codes.txt</code> in your repository</li>
+                                <li>Add the code on a new line</li>
+                                <li>Commit and push changes to GitHub</li>
+                                <li>Share the code with the student</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Student Info Display -->
+                <div id="studentInfoSection" class="info-section" style="display: none;">
+                    <div class="info-card">
+                        <h3>Student Information</h3>
+                        <div id="studentDetails" class="student-details">
+                            <!-- Student details will be shown here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Available Topics Reference -->
+            <div class="reference-section">
+                <div class="reference-card">
+                    <h3>Available Question Files</h3>
+                    <p>Topics available in the system:</p>
+                    <div id="availableTopicsRef" class="available-topics">
+                        <!-- Will be populated by JavaScript -->
+                    </div>
+                    <div class="reference-note">
+                        <p><strong>Note:</strong> To add new topics, create JSON files in the <code>data/questions/</code> directory and push to GitHub.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>

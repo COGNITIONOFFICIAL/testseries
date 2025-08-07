@@ -1,0 +1,487 @@
+{
+  "class": "11",
+  "chapter": "Science",
+  "topic": "Science",
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "Which quantity is conserved in an elastic collision?",
+      "choices": [
+        "Both momentum and kinetic energy",
+        "Only momentum",
+        "Only kinetic energy",
+        "Neither momentum nor kinetic energy"
+      ],
+      "answer": 0,
+      "explanation": "In an elastic collision, both linear momentum and kinetic energy are conserved. No energy is lost to heat or deformation."
+    },
+    {
+      "id": "q2",
+      "stem": "What is the hybridization of nitrogen in ammonia (NH₃)?",
+      "choices": [
+        "sp³",
+        "sp²",
+        "sp",
+        "sp³d"
+      ],
+      "answer": 0,
+      "explanation": "In NH₃, nitrogen undergoes sp³ hybridization with one lone pair and three bonding pairs of electrons."
+    },
+    {
+      "id": "q3",
+      "stem": "Which organelle is known as the 'powerhouse' of the cell?",
+      "choices": [
+        "Mitochondria",
+        "Chloroplast",
+        "Golgi body",
+        "Endoplasmic reticulum"
+      ],
+      "answer": 0,
+      "explanation": "Mitochondria are called powerhouse of the cell as they produce ATP through cellular respiration."
+    },
+    {
+      "id": "q4",
+      "stem": "According to Charles' law, what happens to the volume of a gas when temperature increases at constant pressure?",
+      "choices": [
+        "Increases proportionally",
+        "Decreases proportionally",
+        "Remains constant",
+        "Increases exponentially"
+      ],
+      "answer": 0,
+      "explanation": "Charles' law states that volume is directly proportional to absolute temperature at constant pressure."
+    },
+    {
+      "id": "q5",
+      "stem": "What is the SI unit of angular momentum?",
+      "choices": [
+        "kg⋅m²/s",
+        "kg⋅m/s",
+        "N⋅m",
+        "kg⋅m²"
+      ],
+      "answer": 0,
+      "explanation": "Angular momentum (L) = mvr = mr²ω, giving units of kg⋅m²/s in SI system."
+    },
+    {
+      "id": "q6",
+      "stem": "Which of these is an example of a saturated hydrocarbon?",
+      "choices": [
+        "Ethane (C₂H₆)",
+        "Ethene (C₂H₄)",
+        "Ethyne (C₂H₂)",
+        "Benzene (C₆H₆)"
+      ],
+      "answer": 0,
+      "explanation": "Ethane is a saturated hydrocarbon as it contains only single bonds between carbon atoms."
+    },
+    {
+      "id": "q7",
+      "stem": "What is the function of smooth endoplasmic reticulum?",
+      "choices": [
+        "Lipid synthesis",
+        "Protein synthesis",
+        "ATP production",
+        "Cell division"
+      ],
+      "answer": 0,
+      "explanation": "Smooth endoplasmic reticulum is primarily involved in lipid synthesis and detoxification."
+    },
+    {
+      "id": "q8",
+      "stem": "In which process is mechanical energy converted to thermal energy?",
+      "choices": [
+        "Friction",
+        "Diffusion",
+        "Osmosis",
+        "Radiation"
+      ],
+      "answer": 0,
+      "explanation": "Friction converts mechanical energy to thermal energy through the interaction between surfaces."
+    },
+    {
+      "id": "q9",
+      "stem": "What type of bonding exists in NaCl crystal?",
+      "choices": [
+        "Ionic",
+        "Covalent",
+        "Metallic",
+        "Hydrogen"
+      ],
+      "answer": 0,
+      "explanation": "NaCl has ionic bonding due to complete transfer of electrons from Na to Cl atoms."
+    },
+    {
+      "id": "q10",
+      "stem": "Which cell organelle is responsible for protein synthesis?",
+      "choices": [
+        "Ribosomes",
+        "Lysosomes",
+        "Vacuoles",
+        "Centrosomes"
+      ],
+      "answer": 0,
+      "explanation": "Ribosomes are the sites of protein synthesis, translating mRNA into proteins."
+    },
+    {
+      "id": "q11",
+      "stem": "What is the angle between centripetal acceleration and velocity vectors?",
+      "choices": [
+        "90°",
+        "0°",
+        "180°",
+        "45°"
+      ],
+      "answer": 0,
+      "explanation": "Centripetal acceleration is always perpendicular (90°) to velocity in uniform circular motion."
+    },
+    {
+      "id": "q12",
+      "stem": "Which of these is an intensive property?",
+      "choices": [
+        "Density",
+        "Mass",
+        "Volume",
+        "Total energy"
+      ],
+      "answer": 0,
+      "explanation": "Density is an intensive property as it doesn't depend on the amount of substance."
+    },
+    {
+      "id": "q13",
+      "stem": "What is the role of ATP in cellular processes?",
+      "choices": [
+        "Energy currency",
+        "Genetic material",
+        "Structural support",
+        "Enzyme"
+      ],
+      "answer": 0,
+      "explanation": "ATP serves as energy currency of the cell, providing energy for various cellular processes."
+    },
+    {
+      "id": "q14",
+      "stem": "When a ball is thrown vertically upward, what is its acceleration at the highest point?",
+      "choices": [
+        "-9.8 m/s²",
+        "0 m/s²",
+        "9.8 m/s²",
+        "Variable"
+      ],
+      "answer": 0,
+      "explanation": "Acceleration due to gravity remains constant (-9.8 m/s²) throughout the motion, even at highest point."
+    },
+    {
+      "id": "q15",
+      "stem": "What is the IUPAC name of CH₃-CH₂-CH₂-OH?",
+      "choices": [
+        "Propan-1-ol",
+        "1-hydroxypropane",
+        "Propanol",
+        "n-propyl alcohol"
+      ],
+      "answer": 0,
+      "explanation": "According to IUPAC nomenclature, CH₃-CH₂-CH₂-OH is named propan-1-ol."
+    },
+    {
+      "id": "q16",
+      "stem": "Which phase of cell cycle is longest?",
+      "choices": [
+        "Interphase",
+        "Prophase",
+        "Metaphase",
+        "Telophase"
+      ],
+      "answer": 0,
+      "explanation": "Interphase is the longest phase of cell cycle, during which cell grows and replicates DNA."
+    },
+    {
+      "id": "q17",
+      "stem": "What is the SI unit of pressure?",
+      "choices": [
+        "Pascal",
+        "Newton",
+        "Joule",
+        "Bar"
+      ],
+      "answer": 0,
+      "explanation": "Pascal (N/m²) is the SI unit of pressure, defined as force per unit area."
+    },
+    {
+      "id": "q18",
+      "stem": "Which quantum number determines the energy of an electron in an atom?",
+      "choices": [
+        "Principal quantum number",
+        "Azimuthal quantum number",
+        "Magnetic quantum number",
+        "Spin quantum number"
+      ],
+      "answer": 0,
+      "explanation": "The principal quantum number (n) primarily determines the energy level of an electron."
+    },
+    {
+      "id": "q19",
+      "stem": "What is the function of nucleolus?",
+      "choices": [
+        "Ribosome synthesis",
+        "DNA replication",
+        "Protein synthesis",
+        "ATP production"
+      ],
+      "answer": 0,
+      "explanation": "The nucleolus is primarily responsible for ribosome assembly and synthesis."
+    },
+    {
+      "id": "q20",
+      "stem": "In a projectile motion, which component of velocity remains constant?",
+      "choices": [
+        "Horizontal component",
+        "Vertical component",
+        "Both components",
+        "Neither component"
+      ],
+      "answer": 0,
+      "explanation": "In projectile motion, horizontal component of velocity remains constant as there's no horizontal acceleration."
+    },
+    {
+      "id": "q21",
+      "stem": "The hybridization of carbon in ethylene (C₂H₄) is:",
+      "choices": [
+        "sp²",
+        "sp³",
+        "sp",
+        "sp³d"
+      ],
+      "answer": 0,
+      "explanation": "In ethylene, carbon atoms form three σ bonds and one π bond, indicating sp² hybridization."
+    },
+    {
+      "id": "q22",
+      "stem": "Which organelle is known as the powerhouse of the cell?",
+      "choices": [
+        "Mitochondria",
+        "Nucleus",
+        "Chloroplast",
+        "Golgi body"
+      ],
+      "answer": 0,
+      "explanation": "Mitochondria produces ATP through cellular respiration, hence called cell's powerhouse."
+    },
+    {
+      "id": "q23",
+      "stem": "The SI unit of electric current is:",
+      "choices": [
+        "Ampere",
+        "Volt",
+        "Ohm",
+        "Coulomb"
+      ],
+      "answer": 0,
+      "explanation": "Ampere is the SI unit of electric current, measuring charge flow per second."
+    },
+    {
+      "id": "q24",
+      "stem": "Which quantum number determines the shape of orbital?",
+      "choices": [
+        "Angular momentum",
+        "Principal",
+        "Magnetic",
+        "Spin"
+      ],
+      "answer": 0,
+      "explanation": "Angular momentum (l) quantum number determines orbital shape."
+    },
+    {
+      "id": "q25",
+      "stem": "The fluid mosaic model describes the structure of:",
+      "choices": [
+        "Cell membrane",
+        "Cell wall",
+        "Nuclear membrane",
+        "Golgi membrane"
+      ],
+      "answer": 0,
+      "explanation": "The fluid mosaic model explains phospholipid bilayer structure of cell membrane."
+    },
+    {
+      "id": "q26",
+      "stem": "Avogadro's number represents:",
+      "choices": [
+        "6.022 × 10²³ particles/mole",
+        "6.022 × 10²² particles/mole",
+        "6.022 × 10²¹ particles/mole",
+        "6.022 × 10²⁴ particles/mole"
+      ],
+      "answer": 0,
+      "explanation": "Avogadro's number (N_A) = 6.022 × 10²³ particles per mole of substance."
+    },
+    {
+      "id": "q27",
+      "stem": "In photoelectric effect, the kinetic energy of ejected electrons depends on:",
+      "choices": [
+        "Frequency of incident light",
+        "Intensity of light",
+        "Time of exposure",
+        "Size of metal"
+      ],
+      "answer": 0,
+      "explanation": "KE = hf - φ, where f is frequency of incident light and φ is work function."
+    },
+    {
+      "id": "q28",
+      "stem": "DNA replication is:",
+      "choices": [
+        "Semi-conservative",
+        "Conservative",
+        "Dispersive",
+        "Random"
+      ],
+      "answer": 0,
+      "explanation": "DNA replication is semi-conservative: each new double helix has one old and one new strand."
+    },
+    {
+      "id": "q29",
+      "stem": "The pH of blood in human body is approximately:",
+      "choices": [
+        "7.4",
+        "6.4",
+        "8.4",
+        "5.4"
+      ],
+      "answer": 0,
+      "explanation": "Normal blood pH is maintained around 7.4 through various buffer systems."
+    },
+    {
+      "id": "q30",
+      "stem": "Which law states that pressure is inversely proportional to volume at constant temperature?",
+      "choices": [
+        "Boyle's law",
+        "Charles' law",
+        "Gay-Lussac's law",
+        "Avogadro's law"
+      ],
+      "answer": 0,
+      "explanation": "Boyle's law: PV = constant (at constant temperature)."
+    },
+    {
+      "id": "q31",
+      "stem": "The function of smooth endoplasmic reticulum is:",
+      "choices": [
+        "Lipid synthesis",
+        "Protein synthesis",
+        "ATP production",
+        "Cell division"
+      ],
+      "answer": 0,
+      "explanation": "Smooth ER primarily synthesizes lipids and steroids."
+    },
+    {
+      "id": "q32",
+      "stem": "The equivalent resistance of two 2Ω resistors in parallel is:",
+      "choices": [
+        "1Ω",
+        "4Ω",
+        "2Ω",
+        "0.5Ω"
+      ],
+      "answer": 0,
+      "explanation": "For parallel resistors, 1/R = 1/R₁ + 1/R₂. Here, 1/R = 1/2 + 1/2 = 1, so R = 1Ω"
+    },
+    {
+      "id": "q33",
+      "stem": "Which of these is an example of competitive inhibition?",
+      "choices": [
+        "Sulfa drugs",
+        "Aspirin",
+        "Penicillin",
+        "Morphine"
+      ],
+      "answer": 0,
+      "explanation": "Sulfa drugs compete with PABA in bacterial folic acid synthesis pathway."
+    },
+    {
+      "id": "q34",
+      "stem": "The oxidation state of chromium in K₂Cr₂O₇ is:",
+      "choices": [
+        "+6",
+        "+3",
+        "+2",
+        "+4"
+      ],
+      "answer": 0,
+      "explanation": "In dichromate ion, Cr₂O₇²⁻, chromium has oxidation state +6."
+    },
+    {
+      "id": "q35",
+      "stem": "Newton's rings are formed due to:",
+      "choices": [
+        "Interference",
+        "Diffraction",
+        "Polarization",
+        "Scattering"
+      ],
+      "answer": 0,
+      "explanation": "Newton's rings form due to interference of light reflected from two surfaces."
+    },
+    {
+      "id": "q36",
+      "stem": "Which phase of cell cycle is longest?",
+      "choices": [
+        "Interphase",
+        "Prophase",
+        "Metaphase",
+        "Telophase"
+      ],
+      "answer": 0,
+      "explanation": "Interphase (G1 + S + G2) is longest, comprising about 90% of cell cycle."
+    },
+    {
+      "id": "q37",
+      "stem": "Le Chatelier's principle deals with:",
+      "choices": [
+        "Chemical equilibrium",
+        "Nuclear reactions",
+        "Redox reactions",
+        "Acid-base reactions"
+      ],
+      "answer": 0,
+      "explanation": "Le Chatelier's principle predicts shifts in chemical equilibrium due to external changes."
+    },
+    {
+      "id": "q38",
+      "stem": "The momentum of a photon is:",
+      "choices": [
+        "h/λ",
+        "hλ",
+        "hc",
+        "h/c"
+      ],
+      "answer": 0,
+      "explanation": "Photon momentum p = h/λ where h is Planck's constant and λ is wavelength."
+    },
+    {
+      "id": "q39",
+      "stem": "Which hormone regulates blood calcium level?",
+      "choices": [
+        "Calcitonin",
+        "Thyroxine",
+        "Insulin",
+        "Adrenaline"
+      ],
+      "answer": 0,
+      "explanation": "Calcitonin from thyroid gland helps regulate blood calcium levels."
+    },
+    {
+      "id": "q40",
+      "stem": "The hybridization in BCl₃ is:",
+      "choices": [
+        "sp²",
+        "sp³",
+        "sp",
+        "sp³d"
+      ],
+      "answer": 0,
+      "explanation": "BCl₃ has trigonal planar geometry with sp² hybridization of boron."
+    }
+  ]
+}

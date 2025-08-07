@@ -1,0 +1,247 @@
+{
+  "class": "10",
+  "chapter": "Mathematics",
+  "topic": "Algebra, Geometry and Trigonometry",
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "If α and β are the roots of x² - 5x + 6 = 0, then α + β equals:",
+      "choices": [
+        "5",
+        "6",
+        "-5",
+        "-6"
+      ],
+      "answer": 0,
+      "explanation": "Sum of roots = -b/a = -(-5)/1 = 5"
+    },
+    {
+      "id": "q2",
+      "stem": "The value of sin²θ + cos²θ is:",
+      "choices": [
+        "1",
+        "0",
+        "2",
+        "-1"
+      ],
+      "answer": 0,
+      "explanation": "Fundamental trigonometric identity: sin²θ + cos²θ = 1"
+    },
+    {
+      "id": "q3",
+      "stem": "In similar triangles, the ratio of their areas is equal to:",
+      "choices": [
+        "Square of ratio of their sides",
+        "Ratio of their sides",
+        "Cube of ratio of their sides",
+        "None of these"
+      ],
+      "answer": 0,
+      "explanation": "Area ratio = (side ratio)²"
+    },
+    {
+      "id": "q4",
+      "stem": "The distance of point (3,4) from origin is:",
+      "choices": [
+        "5",
+        "7",
+        "25",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Distance = √(3² + 4²) = √25 = 5"
+    },
+    {
+      "id": "q5",
+      "stem": "If tan A = 1, then the value of sin A is:",
+      "choices": [
+        "1/√2",
+        "1",
+        "0",
+        "√2"
+      ],
+      "answer": 0,
+      "explanation": "When tan A = 1, sin A = 1/√2 (45° angle)"
+    },
+    {
+      "id": "q6",
+      "stem": "The quadratic equation x² + 2x + 1 = 0 has:",
+      "choices": [
+        "Equal roots",
+        "No real roots",
+        "Two distinct real roots",
+        "One real root"
+      ],
+      "answer": 0,
+      "explanation": "Discriminant = 0, hence equal roots"
+    },
+    {
+      "id": "q7",
+      "stem": "The area of a circle with radius r is:",
+      "choices": [
+        "πr²",
+        "2πr",
+        "πr",
+        "2r"
+      ],
+      "answer": 0,
+      "explanation": "Area of circle = πr²"
+    },
+    {
+      "id": "q8",
+      "stem": "In an AP, if a = 2, d = 3, then the 10th term is:",
+      "choices": [
+        "29",
+        "30",
+        "28",
+        "27"
+      ],
+      "answer": 0,
+      "explanation": "an = a + (n-1)d = 2 + 27 = 29"
+    },
+    {
+      "id": "q9",
+      "stem": "The slope of line passing through (1,2) and (4,8) is:",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Slope = (y₂-y₁)/(x₂-x₁) = (8-2)/(4-1) = 2"
+    },
+    {
+      "id": "q10",
+      "stem": "The value of cos 60° is:",
+      "choices": [
+        "1/2",
+        "√3/2",
+        "1",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "cos 60° = 1/2 (standard angle)"
+    },
+    {
+      "id": "q11",
+      "stem": "The zeroes of ax² + bx + c are:",
+      "choices": [
+        "(-b ± √(b²-4ac))/2a",
+        "(-b ± √(b²+4ac))/2a",
+        "(-b ± √(4ac-b²))/2a",
+        "(-b ± √(b²))/2a"
+      ],
+      "answer": 0,
+      "explanation": "Quadratic formula: x = (-b ± √(b²-4ac))/2a"
+    },
+    {
+      "id": "q12",
+      "stem": "The sum of interior angles of a pentagon is:",
+      "choices": [
+        "540°",
+        "360°",
+        "720°",
+        "180°"
+      ],
+      "answer": 0,
+      "explanation": "(n-2) × 180° where n = 5"
+    },
+    {
+      "id": "q13",
+      "stem": "If sin θ = 3/5, then cos θ equals:",
+      "choices": [
+        "4/5",
+        "3/5",
+        "5/3",
+        "5/4"
+      ],
+      "answer": 0,
+      "explanation": "Using sin²θ + cos²θ = 1"
+    },
+    {
+      "id": "q14",
+      "stem": "The mid-point of line segment joining (2,3) and (4,7) is:",
+      "choices": [
+        "(3,5)",
+        "(2,7)",
+        "(4,3)",
+        "(6,10)"
+      ],
+      "answer": 0,
+      "explanation": "Mid-point formula: ((x₁+x₂)/2, (y₁+y₂)/2)"
+    },
+    {
+      "id": "q15",
+      "stem": "The sum of first n terms of an AP is:",
+      "choices": [
+        "n/2(2a + (n-1)d)",
+        "n(a + d)",
+        "n(2a + d)",
+        "n/2(a + d)"
+      ],
+      "answer": 0,
+      "explanation": "Sum formula: Sn = n/2[2a + (n-1)d]"
+    },
+    {
+      "id": "q16",
+      "stem": "The value of sin 45° is:",
+      "choices": [
+        "1/√2",
+        "1/2",
+        "√3/2",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "sin 45° = 1/√2 (standard angle)"
+    },
+    {
+      "id": "q17",
+      "stem": "The distance between parallel lines 2x + 3y = 6 and 2x + 3y = 12 is:",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "Distance = |c₁-c₂|/√(a²+b²)"
+    },
+    {
+      "id": "q18",
+      "stem": "Volume of a sphere with radius r is:",
+      "choices": [
+        "4πr³/3",
+        "4πr²",
+        "πr³",
+        "πr²"
+      ],
+      "answer": 0,
+      "explanation": "Volume of sphere = 4πr³/3"
+    },
+    {
+      "id": "q19",
+      "stem": "If two angles of a triangle are 60° and 60°, the third angle is:",
+      "choices": [
+        "60°",
+        "30°",
+        "45°",
+        "90°"
+      ],
+      "answer": 0,
+      "explanation": "Sum of angles = 180°, so third angle = 60°"
+    },
+    {
+      "id": "q20",
+      "stem": "The probability of getting a head when a fair coin is tossed is:",
+      "choices": [
+        "1/2",
+        "1",
+        "0",
+        "1/4"
+      ],
+      "answer": 0,
+      "explanation": "Equal probability for head and tail = 1/2"
+    }
+  ]
+}

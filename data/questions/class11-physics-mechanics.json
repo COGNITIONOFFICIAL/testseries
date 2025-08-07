@@ -1,0 +1,787 @@
+{
+  "class": "11",
+  "chapter": "Physics",
+  "topic": "Mechanics",
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "A car accelerates from rest at $2 \\text{ m/s}^2$ for 10 seconds. What is the final velocity?",
+      "choices": [
+        "$20 \\text{ m/s}$",
+        "$10 \\text{ m/s}$",
+        "$5 \\text{ m/s}$",
+        "$40 \\text{ m/s}$"
+      ],
+      "answer": 0,
+      "explanation": "Using the equation $v = u + at$, where $u = 0$ (starts from rest), $a = 2 \\text{ m/s}^2$, and $t = 10\\text{ s}$. So $v = 0 + 2 \\times 10 = 20 \\text{ m/s}$."
+    },
+    {
+      "id": "q2",
+      "stem": "The SI unit of force is:",
+      "choices": [
+        "Newton",
+        "Joule",
+        "Watt",
+        "Pascal"
+      ],
+      "answer": 0,
+      "explanation": "Force is measured in Newtons (N). Joule is for energy, Watt is for power, and Pascal is for pressure."
+    },
+    {
+      "id": "q3",
+      "stem": "Newton's first law is also known as:",
+      "choices": [
+        "Law of inertia",
+        "Law of acceleration",
+        "Law of action-reaction",
+        "Law of gravitation"
+      ],
+      "answer": 0,
+      "explanation": "Newton's first law states that objects at rest stay at rest and objects in motion stay in motion unless acted upon by an external force. This property is called inertia."
+    },
+    {
+      "id": "q4",
+      "stem": "A body of mass 5 kg moves with acceleration $2 \\text{ m/s}^2$. The applied force is:",
+      "choices": [
+        "$10 \\text{ N}$",
+        "$2.5 \\text{ N}$",
+        "$7 \\text{ N}$",
+        "$3 \\text{ N}$"
+      ],
+      "answer": 0,
+      "explanation": "Using Newton's second law: $F = ma = 5 \\text{ kg} \\times 2 \\text{ m/s}^2 = 10 \\text{ N}$."
+    },
+    {
+      "id": "q5",
+      "stem": "The acceleration due to gravity on Earth is approximately:",
+      "choices": [
+        "$9.8 \\text{ m/s}^2$",
+        "$10 \\text{ m/s}^2$",
+        "$9 \\text{ m/s}^2$",
+        "$8.8 \\text{ m/s}^2$"
+      ],
+      "answer": 0,
+      "explanation": "The standard value of acceleration due to gravity on Earth's surface is $g = 9.8 \\text{ m/s}^2$ (sometimes approximated as $10 \\text{ m/s}^2$ for calculations)."
+    },
+    {
+      "id": "q6",
+      "stem": "Momentum is the product of:",
+      "choices": [
+        "Mass and velocity",
+        "Mass and acceleration",
+        "Force and time",
+        "Force and displacement"
+      ],
+      "answer": 0,
+      "explanation": "Momentum is defined as $p = mv$, where $m$ is mass and $v$ is velocity. Force × time gives impulse, and force × displacement gives work."
+    },
+    {
+      "id": "q7",
+      "stem": "The kinetic energy of a body depends on:",
+      "choices": [
+        "Mass and velocity",
+        "Mass and acceleration",
+        "Force and displacement",
+        "Force and time"
+      ],
+      "answer": 0,
+      "explanation": "Kinetic energy is given by $KE = \\frac{1}{2}mv^2$, which depends on both mass and velocity (specifically, velocity squared)."
+    },
+    {
+      "id": "q8",
+      "stem": "Work done is measured in:",
+      "choices": [
+        "Joules",
+        "Watts",
+        "Newtons",
+        "Pascals"
+      ],
+      "answer": 0,
+      "explanation": "Work is measured in Joules (J). Watts measure power, Newtons measure force, and Pascals measure pressure."
+    },
+    {
+      "id": "q9",
+      "stem": "Power is the rate of doing:",
+      "choices": [
+        "Work",
+        "Force",
+        "Energy",
+        "Momentum"
+      ],
+      "answer": 0,
+      "explanation": "Power is defined as the rate of doing work, or $P = \\frac{W}{t}$. It can also be expressed as the rate of energy transfer."
+    },
+    {
+      "id": "q10",
+      "stem": "The formula for kinetic energy is:",
+      "choices": [
+        "$\\frac{1}{2}mv^2$",
+        "$mgh$",
+        "$\\frac{1}{2}kx^2$",
+        "$mv$"
+      ],
+      "answer": 0,
+      "explanation": "Kinetic energy is $KE = \\frac{1}{2}mv^2$. $mgh$ is gravitational potential energy, $\\frac{1}{2}kx^2$ is elastic potential energy, and $mv$ is momentum."
+    },
+    {
+      "id": "q11",
+      "stem": "Potential energy at height h is given by:",
+      "choices": [
+        "$mgh$",
+        "$\\frac{1}{2}mv^2$",
+        "$\\frac{1}{2}kx^2$",
+        "$mv$"
+      ],
+      "answer": 0,
+      "explanation": "Gravitational potential energy is $PE = mgh$, where $m$ is mass, $g$ is acceleration due to gravity, and $h$ is height above reference level."
+    },
+    {
+      "id": "q12",
+      "stem": "The coefficient of friction is:",
+      "choices": [
+        "Dimensionless",
+        "Has dimension of force",
+        "Has dimension of velocity",
+        "Has dimension of acceleration"
+      ],
+      "answer": 0,
+      "explanation": "The coefficient of friction $\\mu = \\frac{f}{N}$ is the ratio of frictional force to normal force. Since both have the same dimension (force), their ratio is dimensionless."
+    },
+    {
+      "id": "q13",
+      "stem": "Centripetal force is always directed:",
+      "choices": [
+        "Towards the center",
+        "Away from the center",
+        "Tangentially",
+        "Vertically upward"
+      ],
+      "answer": 0,
+      "explanation": "Centripetal force is the force that keeps an object moving in a circular path and is always directed towards the center of the circular motion."
+    },
+    {
+      "id": "q14",
+      "stem": "The time period of a simple pendulum depends on:",
+      "choices": [
+        "Length and gravity",
+        "Mass and length",
+        "Mass and gravity",
+        "Amplitude only"
+      ],
+      "answer": 0,
+      "explanation": "The time period of a simple pendulum is $T = 2\\pi\\sqrt{\\frac{l}{g}}$, which depends only on length $l$ and acceleration due to gravity $g$, not on mass or amplitude (for small oscillations)."
+    },
+    {
+      "id": "q15",
+      "stem": "Angular velocity is measured in:",
+      "choices": [
+        "rad/s",
+        "m/s",
+        "rev/min",
+        "degrees"
+      ],
+      "answer": 0,
+      "explanation": "Angular velocity is the rate of change of angular displacement and is measured in radians per second (rad/s). While rev/min is also used, rad/s is the SI unit."
+    },
+    {
+      "id": "q16",
+      "stem": "The moment of inertia depends on:",
+      "choices": [
+        "Mass distribution",
+        "Angular velocity",
+        "Linear velocity",
+        "Force applied"
+      ],
+      "answer": 0,
+      "explanation": "Moment of inertia depends on the mass of the object and how that mass is distributed relative to the axis of rotation. It's independent of velocity or applied force."
+    },
+    {
+      "id": "q17",
+      "stem": "Torque is the rotational equivalent of:",
+      "choices": [
+        "Force",
+        "Momentum",
+        "Energy",
+        "Power"
+      ],
+      "answer": 0,
+      "explanation": "Just as force causes linear acceleration, torque causes angular acceleration. Torque is defined as $\\tau = r \\times F$, making it the rotational analog of force."
+    },
+    {
+      "id": "q18",
+      "stem": "Conservation of momentum applies when:",
+      "choices": [
+        "No external force acts",
+        "Forces are balanced",
+        "Velocity is constant",
+        "Acceleration is zero"
+      ],
+      "answer": 0,
+      "explanation": "Momentum is conserved when the net external force on a system is zero. Internal forces between objects don't affect the total momentum of the system."
+    },
+    {
+      "id": "q19",
+      "stem": "The escape velocity from Earth is approximately:",
+      "choices": [
+        "$11.2 \\text{ km/s}$",
+        "$9.8 \\text{ m/s}$",
+        "$7.9 \\text{ km/s}$",
+        "$3.0 \\times 10^8 \\text{ m/s}$"
+      ],
+      "answer": 0,
+      "explanation": "Escape velocity is the minimum speed needed to escape Earth's gravitational field. It's calculated as $v_e = \\sqrt{\\frac{2GM}{R}} \\approx 11.2 \\text{ km/s}$."
+    },
+    {
+      "id": "q20",
+      "stem": "Simple harmonic motion is characterized by:",
+      "choices": [
+        "Restoring force proportional to displacement",
+        "Constant velocity",
+        "Constant acceleration",
+        "Exponential decay"
+      ],
+      "answer": 0,
+      "explanation": "In SHM, the restoring force is directly proportional to displacement and opposite in direction: $F = -kx$. This creates oscillatory motion."
+    },
+    {
+      "id": "q21",
+      "stem": "The spring constant has units of:",
+      "choices": [
+        "N/m",
+        "N⋅m",
+        "kg/s",
+        "m/s²"
+      ],
+      "answer": 0,
+      "explanation": "From Hooke's law $F = kx$, the spring constant $k = \\frac{F}{x}$ has units of force per unit length, which is N/m."
+    },
+    {
+      "id": "q22",
+      "stem": "Elastic collision conserves:",
+      "choices": [
+        "Both momentum and kinetic energy",
+        "Only momentum",
+        "Only kinetic energy",
+        "Neither momentum nor energy"
+      ],
+      "answer": 0,
+      "explanation": "In elastic collisions, both momentum and kinetic energy are conserved. In inelastic collisions, only momentum is conserved while some kinetic energy is converted to other forms."
+    },
+    {
+      "id": "q23",
+      "stem": "The range of a projectile is maximum at an angle of:",
+      "choices": [
+        "$45°$",
+        "$30°$",
+        "$60°$",
+        "$90°$"
+      ],
+      "answer": 0,
+      "explanation": "For projectile motion on level ground, maximum range occurs at 45°. The range formula $R = \\frac{v_0^2\\sin(2\\theta)}{g}$ is maximum when $\\sin(2\\theta) = 1$, which occurs at $\\theta = 45°$."
+    },
+    {
+      "id": "q24",
+      "stem": "Impulse equals change in:",
+      "choices": [
+        "Momentum",
+        "Velocity",
+        "Acceleration",
+        "Position"
+      ],
+      "answer": 0,
+      "explanation": "Impulse-momentum theorem states that impulse equals the change in momentum: $J = \\Delta p = F \\cdot \\Delta t$."
+    },
+    {
+      "id": "q25",
+      "stem": "The gravitational force between two masses is:",
+      "choices": [
+        "Inversely proportional to square of distance",
+        "Directly proportional to distance",
+        "Independent of distance",
+        "Inversely proportional to distance"
+      ],
+      "answer": 0,
+      "explanation": "Newton's law of universal gravitation: $F = G\\frac{m_1m_2}{r^2}$. The force is inversely proportional to the square of the distance between the masses."
+    },
+    {
+      "id": "q26",
+      "stem": "A particle moves in a circle of radius 2m with constant speed. Its acceleration is 4m/s². The speed of the particle is:",
+      "choices": [
+        "2√2 m/s",
+        "4 m/s",
+        "2 m/s",
+        "8 m/s"
+      ],
+      "answer": 0,
+      "explanation": "For uniform circular motion, a = v²/r. Given a = 4 and r = 2, so v = √(ar) = √(4×2) = 2√2 m/s"
+    },
+    {
+      "id": "q27", 
+      "stem": "The moment of inertia of a solid sphere about its diameter is:",
+      "choices": [
+        "2MR²/5",
+        "MR²",
+        "2MR²/3",
+        "MR²/2"
+      ],
+      "answer": 0,
+      "explanation": "For a solid sphere, moment of inertia about diameter = 2MR²/5"
+    },
+    {
+      "id": "q28",
+      "stem": "Under what condition is the momentum of a system conserved?",
+      "choices": [
+        "Net external force is zero",
+        "Net internal force is zero",
+        "Kinetic energy is constant",
+        "System is accelerating"
+      ],
+      "answer": 0,
+      "explanation": "Linear momentum is conserved when net external force acting on system is zero"
+    },
+    {
+      "id": "q29",
+      "stem": "A body is thrown vertically upward with velocity u. The time taken to reach maximum height is:",
+      "choices": [
+        "u/g",
+        "2u/g",
+        "u/2g",
+        "2u/3g"
+      ],
+      "answer": 0,
+      "explanation": "Time to reach max height = initial velocity/acceleration due to gravity = u/g"
+    },
+    {
+      "id": "q30",
+      "stem": "Angular momentum is conserved when:",
+      "choices": [
+        "Net torque is zero",
+        "Net force is zero",
+        "Energy is constant",
+        "Mass is constant"
+      ],
+      "answer": 0,
+      "explanation": "Angular momentum is conserved when net external torque acting on system is zero"
+    },
+    {
+      "id": "q31",
+      "stem": "The work done by centripetal force in uniform circular motion is:",
+      "choices": [
+        "Zero",
+        "mv²/r",
+        "mv²",
+        "mrω²"
+      ],
+      "answer": 0,
+      "explanation": "Centripetal force is perpendicular to displacement, so work done is zero"
+    },
+    {
+      "id": "q32",
+      "stem": "A body of mass 2 kg is acted upon by a force F = 5t N, where t is in seconds. If initial velocity is zero, displacement after 4 seconds is:",
+      "choices": [
+        "20m",
+        "40m",
+        "10m",
+        "80m"
+      ],
+      "answer": 0,
+      "explanation": "Using s = ut + (1/2)at², where a = F/m = 5t/2, integrating twice gives s = 20m"
+    },
+    {
+      "id": "q33",
+      "stem": "The radius of gyration of a body is:",
+      "choices": [
+        "√(I/M)",
+        "I/M",
+        "√(M/I)",
+        "MI"
+      ],
+      "answer": 0,
+      "explanation": "Radius of gyration K = √(I/M) where I is moment of inertia and M is mass"
+    },
+    {
+      "id": "q34",
+      "stem": "If a body is in equilibrium, which of these must be zero?",
+      "choices": [
+        "Both net force and torque",
+        "Only net force",
+        "Only net torque",
+        "Either net force or torque"
+      ],
+      "answer": 0,
+      "explanation": "For complete equilibrium, both net force and net torque must be zero"
+    },
+    {
+      "id": "q35",
+      "stem": "The angular acceleration of a body is constant. Its angular displacement θ after time t is:",
+      "choices": [
+        "ω₀t + (1/2)αt²",
+        "ω₀t",
+        "αt²",
+        "(1/2)αt²"
+      ],
+      "answer": 0,
+      "explanation": "Similar to linear motion, θ = ω₀t + (1/2)αt² where ω₀ is initial angular velocity"
+    },
+    {
+      "id": "q36",
+      "stem": "A body is projected at 45° to horizontal. The ratio of horizontal range to maximum height is:",
+      "choices": [
+        "4",
+        "2",
+        "1",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "For 45° projection, Range = u²/g and max height = u²/4g, so ratio = 4"
+    },
+    {
+      "id": "q37",
+      "stem": "According to parallel axis theorem, I = Icm + Mh². Here h is:",
+      "choices": [
+        "Perpendicular distance between axes",
+        "Radius of gyration",
+        "Radius of body",
+        "Height of body"
+      ],
+      "answer": 0,
+      "explanation": "h is perpendicular distance between parallel axis and center of mass axis"
+    },
+    {
+      "id": "q38",
+      "stem": "In an elastic collision between two bodies, which quantity is NOT conserved?",
+      "choices": [
+        "Relative velocity",
+        "Linear momentum",
+        "Kinetic energy",
+        "Total energy"
+      ],
+      "answer": 0,
+      "explanation": "In elastic collision, relative velocity changes direction but magnitude remains same"
+    },
+    {
+      "id": "q39",
+      "stem": "A particle moves with constant velocity. Its angular momentum about a fixed point:",
+      "choices": [
+        "Changes with time",
+        "Remains constant",
+        "Is always zero",
+        "Increases uniformly"
+      ],
+      "answer": 0,
+      "explanation": "Angular momentum L = r × p changes as position vector r changes with time"
+    },
+    {
+      "id": "q40",
+      "stem": "The escape velocity from Earth's surface is:",
+      "choices": [
+        "√(2GM/R)",
+        "√(GM/R)",
+        "√(2GM/R²)",
+        "GM/R²"
+      ],
+      "answer": 0,
+      "explanation": "Escape velocity = √(2GM/R) where G is gravitational constant, M is Earth's mass, R is radius"
+    },
+    {
+      "id": "q41",
+      "stem": "A disc rolling without slipping has:",
+      "choices": [
+        "Both rotational and translational KE",
+        "Only rotational KE",
+        "Only translational KE",
+        "Zero total energy"
+      ],
+      "answer": 0,
+      "explanation": "Rolling motion is combination of rotation and translation, so both KEs exist"
+    },
+    {
+      "id": "q42",
+      "stem": "The time period of a simple pendulum depends on:",
+      "choices": [
+        "Length and g",
+        "Mass and length",
+        "Mass and g",
+        "Only length"
+      ],
+      "answer": 0,
+      "explanation": "T = 2π√(l/g) where l is length and g is acceleration due to gravity"
+    },
+    {
+      "id": "q43",
+      "stem": "For a particle in uniform circular motion, which vector quantity is constant?",
+      "choices": [
+        "Angular momentum",
+        "Linear momentum",
+        "Velocity",
+        "Acceleration"
+      ],
+      "answer": 0,
+      "explanation": "Angular momentum about center is constant as radius and speed are constant"
+    },
+    {
+      "id": "q44",
+      "stem": "The moment of inertia of a thin rod about its center is:",
+      "choices": [
+        "ML²/12",
+        "ML²/3",
+        "ML²/4",
+        "ML²/6"
+      ],
+      "answer": 0,
+      "explanation": "For thin rod about center, I = ML²/12 where M is mass and L is length"
+    },
+    {
+      "id": "q45",
+      "stem": "In projectile motion, which component of velocity remains constant?",
+      "choices": [
+        "Horizontal",
+        "Vertical",
+        "Both",
+        "Neither"
+      ],
+      "answer": 0,
+      "explanation": "Horizontal component remains constant as no horizontal force acts on projectile"
+    },
+    {
+      "id": "q46",
+      "stem": "A particle moves with constant velocity. The net force acting on it is:",
+      "choices": [
+        "Zero",
+        "Constant but non-zero",
+        "Variable",
+        "Infinite"
+      ],
+      "answer": 0,
+      "explanation": "By Newton's first law, constant velocity implies zero net force."
+    },
+    {
+      "id": "q47",
+      "stem": "The dimensional formula for momentum is:",
+      "choices": [
+        "[MLT⁻¹]",
+        "[MLT]",
+        "[ML²T⁻²]",
+        "[ML²T⁻¹]"
+      ],
+      "answer": 0,
+      "explanation": "Momentum = mass × velocity, so [M][L][T⁻¹] = [MLT⁻¹]"
+    },
+    {
+      "id": "q48",
+      "stem": "A body is thrown vertically upward. At the highest point:",
+      "choices": [
+        "Velocity is zero but acceleration is g",
+        "Both velocity and acceleration are zero",
+        "Velocity is g but acceleration is zero",
+        "Both velocity and acceleration are g"
+      ],
+      "answer": 0,
+      "explanation": "At highest point, velocity becomes zero but gravitational acceleration remains constant."
+    },
+    {
+      "id": "q49",
+      "stem": "The moment of inertia of a uniform thin rod about its center is:",
+      "choices": [
+        "ML²/12",
+        "ML²/3",
+        "ML²/4",
+        "ML²/6"
+      ],
+      "answer": 0,
+      "explanation": "For uniform thin rod about center, I = ML²/12 where M is mass and L is length."
+    },
+    {
+      "id": "q50",
+      "stem": "Angular momentum is conserved when:",
+      "choices": [
+        "Net torque is zero",
+        "Net force is zero",
+        "Kinetic energy is constant",
+        "Linear momentum is constant"
+      ],
+      "answer": 0,
+      "explanation": "Angular momentum is conserved when net external torque is zero."
+    },
+    {
+      "id": "q51",
+      "stem": "The acceleration in simple harmonic motion is maximum at:",
+      "choices": [
+        "Extreme positions",
+        "Mean position",
+        "Midway between mean and extreme",
+        "Any position"
+      ],
+      "answer": 0,
+      "explanation": "At extreme positions, displacement is maximum, so acceleration (∝ -x) is maximum."
+    },
+    {
+      "id": "q52",
+      "stem": "Work done by centripetal force in uniform circular motion is:",
+      "choices": [
+        "Zero",
+        "mv²/r",
+        "mv²/2",
+        "mrω²"
+      ],
+      "answer": 0,
+      "explanation": "Centripetal force is perpendicular to displacement, so work done is zero."
+    },
+    {
+      "id": "q53",
+      "stem": "For an elastic collision in one dimension:",
+      "choices": [
+        "Both momentum and kinetic energy are conserved",
+        "Only momentum is conserved",
+        "Only kinetic energy is conserved",
+        "Neither is conserved"
+      ],
+      "answer": 0,
+      "explanation": "Elastic collisions conserve both linear momentum and kinetic energy."
+    },
+    {
+      "id": "q54",
+      "stem": "The time period of a simple pendulum is independent of:",
+      "choices": [
+        "Mass of bob",
+        "Length of pendulum",
+        "Acceleration due to gravity",
+        "Amplitude (for small oscillations)"
+      ],
+      "answer": 0,
+      "explanation": "T = 2π√(l/g) shows period depends only on length and g, not mass."
+    },
+    {
+      "id": "q55",
+      "stem": "A satellite orbits Earth in a circular orbit. Its total energy E is related to potential energy U as:",
+      "choices": [
+        "E = U/2",
+        "E = U",
+        "E = -U",
+        "E = -U/2"
+      ],
+      "answer": 0,
+      "explanation": "For circular orbit, K.E. = -U/2, so total energy E = K.E. + U = U/2"
+    },
+    {
+      "id": "q56",
+      "stem": "The velocity-time graph for constant acceleration is:",
+      "choices": [
+        "Straight line",
+        "Parabola",
+        "Hyperbola",
+        "Circle"
+      ],
+      "answer": 0,
+      "explanation": "Constant acceleration means constant rate of change of velocity, giving straight line v-t graph."
+    },
+    {
+      "id": "q57",
+      "stem": "Angular momentum L of a particle is given by:",
+      "choices": [
+        "r × p",
+        "r · p",
+        "r + p",
+        "r - p"
+      ],
+      "answer": 0,
+      "explanation": "Angular momentum is cross product of position vector and linear momentum."
+    },
+    {
+      "id": "q58",
+      "stem": "The escape velocity from Earth's surface is approximately:",
+      "choices": [
+        "11.2 km/s",
+        "7.9 km/s",
+        "5.6 km/s",
+        "14.1 km/s"
+      ],
+      "answer": 0,
+      "explanation": "Escape velocity = √(2GM/R) ≈ 11.2 km/s for Earth."
+    },
+    {
+      "id": "q59",
+      "stem": "In rolling motion without slipping:",
+      "choices": [
+        "v = rω",
+        "v = r/ω",
+        "v = ω/r",
+        "v = r²ω"
+      ],
+      "answer": 0,
+      "explanation": "For pure rolling, linear velocity equals product of radius and angular velocity."
+    },
+    {
+      "id": "q60",
+      "stem": "The radius of gyration K is related to moment of inertia I and mass M as:",
+      "choices": [
+        "I = MK²",
+        "I = M/K²",
+        "I = M²K",
+        "I = MK"
+      ],
+      "answer": 0,
+      "explanation": "Radius of gyration is defined by relation I = MK²."
+    },
+    {
+      "id": "q61",
+      "stem": "For a projectile, which quantity remains constant throughout motion?",
+      "choices": [
+        "Horizontal velocity",
+        "Vertical velocity",
+        "Speed",
+        "Acceleration"
+      ],
+      "answer": 0,
+      "explanation": "Neglecting air resistance, horizontal velocity remains constant as no horizontal force acts."
+    },
+    {
+      "id": "q62",
+      "stem": "The coefficient of static friction is:",
+      "choices": [
+        "Greater than coefficient of kinetic friction",
+        "Less than coefficient of kinetic friction",
+        "Equal to coefficient of kinetic friction",
+        "Zero"
+      ],
+      "answer": 0,
+      "explanation": "Static friction coefficient is always greater than kinetic friction coefficient."
+    },
+    {
+      "id": "q63",
+      "stem": "In an inelastic collision:",
+      "choices": [
+        "Kinetic energy is not conserved",
+        "Momentum is not conserved",
+        "Both are not conserved",
+        "Both are conserved"
+      ],
+      "answer": 0,
+      "explanation": "In inelastic collisions, momentum is conserved but kinetic energy is not."
+    },
+    {
+      "id": "q64",
+      "stem": "The angular acceleration α is related to torque τ and moment of inertia I as:",
+      "choices": [
+        "τ = Iα",
+        "τ = I/α",
+        "τ = α/I",
+        "τ = I²α"
+      ],
+      "answer": 0,
+      "explanation": "τ = Iα is rotational analog of F = ma."
+    },
+    {
+      "id": "q65",
+      "stem": "A body executing SHM has maximum acceleration when:",
+      "choices": [
+        "Displacement is maximum",
+        "Velocity is maximum",
+        "Both are maximum",
+        "Both are zero"
+      ],
+      "answer": 0,
+      "explanation": "In SHM, acceleration is proportional to displacement and maximum at extreme positions."
+    }
+  ]
+}

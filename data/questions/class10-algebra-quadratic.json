@@ -1,0 +1,307 @@
+{
+  "class": "10",
+  "chapter": "Mathematics",
+  "topic": "Quadratic Equations",
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "Find the roots of the quadratic equation $x^2 - 5x + 6 = 0$",
+      "choices": [
+        "$x = 2, 3$",
+        "$x = 1, 6$",
+        "$x = -2, -3$",
+        "$x = 0, 5$"
+      ],
+      "answer": 0,
+      "explanation": "Using factoring: $x^2 - 5x + 6 = (x-2)(x-3) = 0$. Therefore, $x = 2$ or $x = 3$."
+    },
+    {
+      "id": "q2",
+      "stem": "The discriminant of $2x^2 + 3x - 1 = 0$ is:",
+      "choices": [
+        "$17$",
+        "$5$",
+        "$9$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "Discriminant = $b^2 - 4ac = 3^2 - 4(2)(-1) = 9 + 8 = 17$."
+    },
+    {
+      "id": "q3",
+      "stem": "If the roots of $x^2 - px + q = 0$ are 2 and 3, then $p + q$ equals:",
+      "choices": [
+        "$11$",
+        "$5$",
+        "$7$",
+        "$1$"
+      ],
+      "answer": 0,
+      "explanation": "Sum of roots = $p = 2 + 3 = 5$. Product of roots = $q = 2 \\times 3 = 6$. Therefore, $p + q = 5 + 6 = 11$."
+    },
+    {
+      "id": "q4",
+      "stem": "The quadratic equation whose roots are $\\frac{1}{2}$ and $\\frac{1}{3}$ is:",
+      "choices": [
+        "$6x^2 - 5x + 1 = 0$",
+        "$6x^2 + 5x + 1 = 0$",
+        "$6x^2 - 5x - 1 = 0$",
+        "$6x^2 + 5x - 1 = 0$"
+      ],
+      "answer": 0,
+      "explanation": "Sum = $\\frac{1}{2} + \\frac{1}{3} = \\frac{5}{6}$, Product = $\\frac{1}{2} \\times \\frac{1}{3} = \\frac{1}{6}$. Equation: $x^2 - \\frac{5}{6}x + \\frac{1}{6} = 0$. Multiplying by 6: $6x^2 - 5x + 1 = 0$."
+    },
+    {
+      "id": "q5",
+      "stem": "For what value of $k$ will the equation $x^2 + 2x + k = 0$ have equal roots?",
+      "choices": [
+        "$k = 1$",
+        "$k = 2$",
+        "$k = 0$",
+        "$k = -1$"
+      ],
+      "answer": 0,
+      "explanation": "For equal roots, discriminant = 0. So $b^2 - 4ac = 0$, which gives $4 - 4(1)(k) = 0$, therefore $k = 1$."
+    },
+    {
+      "id": "q6",
+      "stem": "If $\\alpha$ and $\\beta$ are roots of $x^2 - 3x + 2 = 0$, then $\\alpha^2 + \\beta^2$ equals:",
+      "choices": [
+        "$5$",
+        "$3$",
+        "$7$",
+        "$9$"
+      ],
+      "answer": 0,
+      "explanation": "$\\alpha + \\beta = 3$ and $\\alpha\\beta = 2$. Using identity: $\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta = 9 - 4 = 5$."
+    },
+    {
+      "id": "q7",
+      "stem": "The roots of $x^2 - 4x + 4 = 0$ are:",
+      "choices": [
+        "Real and equal",
+        "Real and unequal",
+        "Complex",
+        "Irrational"
+      ],
+      "answer": 0,
+      "explanation": "This is a perfect square: $(x-2)^2 = 0$, so $x = 2$ (repeated root). The roots are real and equal."
+    },
+    {
+      "id": "q8",
+      "stem": "If one root of $x^2 - kx + 12 = 0$ is 3, then the other root is:",
+      "choices": [
+        "$4$",
+        "$9$",
+        "$12$",
+        "$15$"
+      ],
+      "answer": 0,
+      "explanation": "Product of roots = 12. If one root is 3, then other root = $\\frac{12}{3} = 4$."
+    },
+    {
+      "id": "q9",
+      "stem": "The sum of roots of $3x^2 + 7x - 2 = 0$ is:",
+      "choices": [
+        "$-\\frac{7}{3}$",
+        "$\\frac{7}{3}$",
+        "$-\\frac{2}{3}$",
+        "$\\frac{2}{3}$"
+      ],
+      "answer": 0,
+      "explanation": "For equation $ax^2 + bx + c = 0$, sum of roots = $-\\frac{b}{a} = -\\frac{7}{3}$."
+    },
+    {
+      "id": "q10",
+      "stem": "The product of roots of $5x^2 - 3x + 2 = 0$ is:",
+      "choices": [
+        "$\\frac{2}{5}$",
+        "$-\\frac{2}{5}$",
+        "$\\frac{3}{5}$",
+        "$-\\frac{3}{5}$"
+      ],
+      "answer": 0,
+      "explanation": "For equation $ax^2 + bx + c = 0$, product of roots = $\\frac{c}{a} = \\frac{2}{5}$."
+    },
+    {
+      "id": "q11",
+      "stem": "The equation $x^2 + px + q = 0$ has roots $\\alpha$ and $\\beta$. If $\\alpha + \\beta = 5$ and $\\alpha \\beta = 6$, then $p + q$ equals:",
+      "choices": [
+        "$1$",
+        "$11$",
+        "$-1$",
+        "$-11$"
+      ],
+      "answer": 0,
+      "explanation": "Sum of roots = $-p = 5$, so $p = -5$. Product of roots = $q = 6$. Therefore, $p + q = -5 + 6 = 1$."
+    },
+    {
+      "id": "q12",
+      "stem": "For the quadratic $ax^2 + bx + c = 0$ to have real roots, the condition is:",
+      "choices": [
+        "$b^2 \\geq 4ac$",
+        "$b^2 < 4ac$",
+        "$b^2 = 4ac$",
+        "$b^2 \\leq 4ac$"
+      ],
+      "answer": 0,
+      "explanation": "For real roots, the discriminant must be non-negative: $\\Delta = b^2 - 4ac \\geq 0$, which means $b^2 \\geq 4ac$."
+    },
+    {
+      "id": "q13",
+      "stem": "If the roots of $x^2 + 2ax + a^2 - 1 = 0$ are real, then:",
+      "choices": [
+        "All real values of $a$",
+        "$a > 1$",
+        "$a < -1$",
+        "$a = 0$"
+      ],
+      "answer": 0,
+      "explanation": "Discriminant = $(2a)^2 - 4(1)(a^2 - 1) = 4a^2 - 4a^2 + 4 = 4 > 0$. Since discriminant is always positive, roots are real for all values of $a$."
+    },
+    {
+      "id": "q14",
+      "stem": "The quadratic $x^2 - 6x + 9 = 0$ represents:",
+      "choices": [
+        "A perfect square",
+        "Sum of squares",
+        "Difference of squares",
+        "None of these"
+      ],
+      "answer": 0,
+      "explanation": "$x^2 - 6x + 9 = (x - 3)^2$, which is a perfect square trinomial."
+    },
+    {
+      "id": "q15",
+      "stem": "If $\\alpha$ and $\\beta$ are roots of $2x^2 - 5x + 3 = 0$, then $\\frac{1}{\\alpha} + \\frac{1}{\\beta}$ equals:",
+      "choices": [
+        "$\\frac{5}{3}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "$\\frac{1}{\\alpha} + \\frac{1}{\\beta} = \\frac{\\alpha + \\beta}{\\alpha\\beta}$. Sum = $\\frac{5}{2}$, Product = $\\frac{3}{2}$. Therefore, $\\frac{5/2}{3/2} = \\frac{5}{3}$."
+    },
+    {
+      "id": "q16",
+      "stem": "The nature of roots of $2x^2 + 3x + 5 = 0$ is:",
+      "choices": [
+        "Complex",
+        "Real and equal",
+        "Real and unequal",
+        "Rational"
+      ],
+      "answer": 0,
+      "explanation": "Discriminant = $3^2 - 4(2)(5) = 9 - 40 = -31 < 0$. Since discriminant is negative, roots are complex."
+    },
+    {
+      "id": "q17",
+      "stem": "If the sum of roots is 6 and product is 8, the quadratic equation is:",
+      "choices": [
+        "$x^2 - 6x + 8 = 0$",
+        "$x^2 + 6x + 8 = 0$",
+        "$x^2 - 6x - 8 = 0$",
+        "$x^2 + 6x - 8 = 0$"
+      ],
+      "answer": 0,
+      "explanation": "If sum = 6 and product = 8, then the equation is $x^2 - (\\text{sum})x + \\text{product} = x^2 - 6x + 8 = 0$."
+    },
+    {
+      "id": "q18",
+      "stem": "The roots of $x^2 + x - 6 = 0$ are:",
+      "choices": [
+        "$x = 2, -3$",
+        "$x = -2, 3$",
+        "$x = 1, -6$",
+        "$x = -1, 6$"
+      ],
+      "answer": 0,
+      "explanation": "Factoring: $x^2 + x - 6 = (x + 3)(x - 2) = 0$. Therefore, $x = -3$ or $x = 2$."
+    },
+    {
+      "id": "q19",
+      "stem": "For $kx^2 + 2x + 1 = 0$ to have real roots, $k$ must satisfy:",
+      "choices": [
+        "$k \\leq 1$",
+        "$k \\geq 1$",
+        "$k < 1$",
+        "$k > 1$"
+      ],
+      "answer": 0,
+      "explanation": "For real roots: $\\Delta \\geq 0$, so $4 - 4k \\geq 0$, which gives $4 \\geq 4k$, therefore $k \\leq 1$."
+    },
+    {
+      "id": "q20",
+      "stem": "The vertex of the parabola $y = x^2 - 4x + 3$ is at:",
+      "choices": [
+        "$(2, -1)$",
+        "$(2, 1)$",
+        "$(-2, -1)$",
+        "$(-2, 1)$"
+      ],
+      "answer": 0,
+      "explanation": "Vertex x-coordinate = $-\\frac{b}{2a} = -\\frac{-4}{2(1)} = 2$. At $x = 2$: $y = 4 - 8 + 3 = -1$. Vertex is $(2, -1)$."
+    },
+    {
+      "id": "q21",
+      "stem": "If one root of $x^2 + px + q = 0$ is twice the other, and the sum of roots is 9, then the roots are:",
+      "choices": [
+        "$3, 6$",
+        "$2, 7$",
+        "$1, 8$",
+        "$4, 5$"
+      ],
+      "answer": 0,
+      "explanation": "Let roots be $r$ and $2r$. Sum = $r + 2r = 3r = 9$, so $r = 3$. The roots are $3$ and $6$."
+    },
+    {
+      "id": "q22",
+      "stem": "The equation $x^2 - 2\\sqrt{3}x + 3 = 0$ has roots:",
+      "choices": [
+        "Real and equal",
+        "Real and unequal",
+        "Complex",
+        "Irrational and unequal"
+      ],
+      "answer": 0,
+      "explanation": "Discriminant = $(2\\sqrt{3})^2 - 4(1)(3) = 12 - 12 = 0$. Since discriminant = 0, roots are real and equal."
+    },
+    {
+      "id": "q23",
+      "stem": "For the equation $x^2 - (m+1)x + m = 0$ to have integral roots, $m$ can be:",
+      "choices": [
+        "Any integer",
+        "Positive integer only",
+        "Negative integer only",
+        "Zero only"
+      ],
+      "answer": 0,
+      "explanation": "Factoring: $x^2 - (m+1)x + m = (x-1)(x-m) = 0$. Roots are $x = 1$ and $x = m$. For any integer $m$, both roots are integers."
+    },
+    {
+      "id": "q24",
+      "stem": "The minimum value of $x^2 - 6x + 10$ is:",
+      "choices": [
+        "$1$",
+        "$4$",
+        "$10$",
+        "$6$"
+      ],
+      "answer": 0,
+      "explanation": "Completing the square: $x^2 - 6x + 10 = (x-3)^2 + 1$. The minimum occurs at $x = 3$ and equals $1$."
+    },
+    {
+      "id": "q25",
+      "stem": "If $\\alpha$ and $\\beta$ are roots of $x^2 + px + 1 = 0$, then $\\alpha^2 + \\beta^2$ in terms of $p$ is:",
+      "choices": [
+        "$p^2 - 2$",
+        "$p^2 + 2$",
+        "$p^2$",
+        "$2 - p^2$"
+      ],
+      "answer": 0,
+      "explanation": "$\\alpha + \\beta = -p$ and $\\alpha\\beta = 1$. Using identity: $\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta = p^2 - 2$."
+    }
+  ]
+}

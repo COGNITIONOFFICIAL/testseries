@@ -1,0 +1,247 @@
+{
+  "class": "11",
+  "chapter": "Mathematics",
+  "topic": "Mathematics",
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "The derivative of sin²x is:",
+      "choices": [
+        "2sin x cos x",
+        "2sin x",
+        "cos 2x",
+        "-2sin x cos x"
+      ],
+      "answer": 0,
+      "explanation": "Using chain rule: d/dx(sin²x) = 2sin x · d/dx(sin x) = 2sin x cos x"
+    },
+    {
+      "id": "q2",
+      "stem": "For what value of x is log₂x = 3?",
+      "choices": [
+        "8",
+        "6",
+        "9",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "If log₂x = 3, then 2³ = x, therefore x = 8"
+    },
+    {
+      "id": "q3",
+      "stem": "The period of tan x is:",
+      "choices": [
+        "π",
+        "2π",
+        "π/2",
+        "3π"
+      ],
+      "answer": 0,
+      "explanation": "Tangent function repeats every π radians, unlike sin and cos which repeat every 2π"
+    },
+    {
+      "id": "q4",
+      "stem": "The value of i⁴ is:",
+      "choices": [
+        "1",
+        "-1",
+        "i",
+        "-i"
+      ],
+      "answer": 0,
+      "explanation": "i⁴ = (i²)² = (-1)² = 1"
+    },
+    {
+      "id": "q5",
+      "stem": "The solution set of |x - 2| = 3 is:",
+      "choices": [
+        "{-1, 5}",
+        "{1, 5}",
+        "{-1, 3}",
+        "{0, 4}"
+      ],
+      "answer": 0,
+      "explanation": "|x - 2| = 3 means x - 2 = 3 or x - 2 = -3, giving x = 5 or x = -1"
+    },
+    {
+      "id": "q6",
+      "stem": "The domain of √(1 - x²) is:",
+      "choices": [
+        "[-1, 1]",
+        "(-1, 1)",
+        "(-∞, ∞)",
+        "[0, 1]"
+      ],
+      "answer": 0,
+      "explanation": "For real values, 1 - x² ≥ 0, solving gives -1 ≤ x ≤ 1"
+    },
+    {
+      "id": "q7",
+      "stem": "If A and B are events with P(A) = 0.5 and P(B) = 0.3, then maximum value of P(A∩B) is:",
+      "choices": [
+        "0.3",
+        "0.5",
+        "0.8",
+        "0.15"
+      ],
+      "answer": 0,
+      "explanation": "Maximum value of P(A∩B) is minimum of P(A) and P(B), which is 0.3"
+    },
+    {
+      "id": "q8",
+      "stem": "The sum of complex numbers z and its conjugate z̄ is:",
+      "choices": [
+        "2Re(z)",
+        "2Im(z)",
+        "0",
+        "|z|"
+      ],
+      "answer": 0,
+      "explanation": "If z = a + bi, then z̄ = a - bi, so z + z̄ = 2a = 2Re(z)"
+    },
+    {
+      "id": "q9",
+      "stem": "The derivative of e^x is:",
+      "choices": [
+        "e^x",
+        "xe^(x-1)",
+        "xe^x",
+        "e^(x-1)"
+      ],
+      "answer": 0,
+      "explanation": "e^x is unique in that it's its own derivative"
+    },
+    {
+      "id": "q10",
+      "stem": "In binomial expansion of (1+x)ⁿ, the coefficient of x^r is:",
+      "choices": [
+        "nCr",
+        "nPr",
+        "n^r",
+        "r^n"
+      ],
+      "answer": 0,
+      "explanation": "The coefficient of x^r in (1+x)ⁿ is nCr = n!/(r!(n-r)!)"
+    },
+    {
+      "id": "q11",
+      "stem": "The equation of circle with center (2,3) and radius 4 is:",
+      "choices": [
+        "(x-2)² + (y-3)² = 16",
+        "(x+2)² + (y+3)² = 16",
+        "(x-2)² + (y-3)² = 4",
+        "x² + y² = 16"
+      ],
+      "answer": 0,
+      "explanation": "Standard form (x-h)² + (y-k)² = r² where (h,k) is center and r is radius"
+    },
+    {
+      "id": "q12",
+      "stem": "If sin θ = 3/5, then cos θ equals:",
+      "choices": [
+        "4/5",
+        "3/5",
+        "5/3",
+        "5/4"
+      ],
+      "answer": 0,
+      "explanation": "Using sin²θ + cos²θ = 1, if sin θ = 3/5, then cos θ = ±4/5. Given angle in first quadrant, cos θ = 4/5"
+    },
+    {
+      "id": "q13",
+      "stem": "The sum of first n natural numbers is:",
+      "choices": [
+        "n(n+1)/2",
+        "n²",
+        "n(n-1)/2",
+        "(n+1)²/2"
+      ],
+      "answer": 0,
+      "explanation": "Sum = n(n+1)/2 is the arithmetic series formula for first n natural numbers"
+    },
+    {
+      "id": "q14",
+      "stem": "The range of function f(x) = sin²x + cos²x is:",
+      "choices": [
+        "{1}",
+        "[0,1]",
+        "[-1,1]",
+        "{0}"
+      ],
+      "answer": 0,
+      "explanation": "sin²x + cos²x = 1 for all x, so range is singleton set {1}"
+    },
+    {
+      "id": "q15",
+      "stem": "If f'(x) > 0 for all x in an interval, then f(x) is:",
+      "choices": [
+        "Strictly increasing",
+        "Strictly decreasing",
+        "Constant",
+        "Not defined"
+      ],
+      "answer": 0,
+      "explanation": "Positive derivative throughout an interval implies function is strictly increasing"
+    },
+    {
+      "id": "q16",
+      "stem": "The inverse of function f(x) = 2^x is:",
+      "choices": [
+        "log₂x",
+        "2^(-x)",
+        "ln x",
+        "-2^x"
+      ],
+      "answer": 0,
+      "explanation": "f⁻¹(x) = log₂x as it satisfies f(f⁻¹(x)) = x"
+    },
+    {
+      "id": "q17",
+      "stem": "The equation ax² + bx + c = 0 has equal roots if:",
+      "choices": [
+        "b² - 4ac = 0",
+        "b² + 4ac = 0",
+        "b² = 4ac",
+        "ac = b²"
+      ],
+      "answer": 0,
+      "explanation": "Discriminant b² - 4ac = 0 for equal roots"
+    },
+    {
+      "id": "q18",
+      "stem": "∫ cos x dx equals:",
+      "choices": [
+        "sin x + C",
+        "-sin x + C",
+        "cos x + C",
+        "-cos x + C"
+      ],
+      "answer": 0,
+      "explanation": "The integral of cos x is sin x + C as d/dx(sin x) = cos x"
+    },
+    {
+      "id": "q19",
+      "stem": "The probability of complement of event A is:",
+      "choices": [
+        "1 - P(A)",
+        "P(A)",
+        "1 + P(A)",
+        "2P(A)"
+      ],
+      "answer": 0,
+      "explanation": "P(A') = 1 - P(A) where A' is complement of A"
+    },
+    {
+      "id": "q20",
+      "stem": "The equation of line passing through points (1,2) and (3,6) is:",
+      "choices": [
+        "y - 2 = 2(x - 1)",
+        "y + 2 = 2(x + 1)",
+        "y = 2x",
+        "y = 2x + 2"
+      ],
+      "answer": 0,
+      "explanation": "Using point-slope form with slope = (6-2)/(3-1) = 2"
+    }
+  ]
+}
