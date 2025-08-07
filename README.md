@@ -1,8 +1,15 @@
 # Cognition Coaching Center - Quiz Platform
 
-A comprehensive static quiz platform built with HTML, CSS, and vanilla JavaScript for educational institutions. Students can take timed multiple-choice quizzes with formula support, while administrators can manage access codes and question sets.
+A modern, responsive web-based quiz platform for educational institutions. This application allows administrators to create access codes for students and enables students to take timed quizzes on various academic topics.
 
-## 🌟 Features
+## 🌐 Live Demo
+
+**Access the platform at:** [https://cognitionofficial.github.io/testseries/](https://cognitionofficial.github.io/testseries/)
+
+- **Student Portal**: [https://cognitionofficial.github.io/testseries/](https://cognitionofficial.github.io/testseries/)
+- **Admin Panel**: [https://cognitionofficial.github.io/testseries/admin.html](https://cognitionofficial.github.io/testseries/admin.html)
+
+## ✨ Features
 
 ### Student Features
 - **Secure Access**: Login with unique access codes containing topic permissions
