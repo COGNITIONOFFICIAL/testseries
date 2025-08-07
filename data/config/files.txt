@@ -7,14 +7,14 @@ class8-science.json
 class9-english.json
 class9-mathematics.json
 class9-science.json
-class10-algebra-quadratic.json
 class10-english.json
 class10-mathematics.json
 class10-science.json
+class10-algebra-quadratic.json
 class11-english.json
 class11-mathematics.json
-class11-physics-mechanics.json
 class11-science.json
+class11-physics-mechanics.json
 class12-english.json
 class12-mathematics.json
 class12-science.json

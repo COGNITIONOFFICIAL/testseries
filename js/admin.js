@@ -81,18 +81,17 @@ class AdminPanel {
     }
 
     async loadAvailableTopics() {
-        console.log('Starting to load available topics...');
+        console.log('🔍 Starting to load available topics...');
         try {
             // Try to load the list of files from the config file
             await this.loadFilesFromConfig();
         } catch (error) {
-            console.error('Error loading files from config:', error);
+            console.error('❌ Error loading files from config:', error);
             // Fallback to known files if config loading fails
             await this.loadKnownTopics();
         }
-
-        console.log('Topics loaded, now rendering...');
-        console.log('Available topics:', this.availableTopics);
+        
+        console.log('✅ Topics loading completed. Available topics:', this.availableTopics);
         this.renderTopicsCheckboxes();
         this.renderAvailableTopicsReference();
     }
@@ -110,7 +109,7 @@ class AdminPanel {
             const fileList = await response.text();
             console.log('Raw config file content:', fileList);
             
-            const files = fileList.split('\n')
+            const files = fileList.split(/\r?\n/)
                 .map(line => line.trim())
                 .filter(line => line && !line.startsWith('#'));
             
@@ -120,35 +119,45 @@ class AdminPanel {
                 throw new Error('No files found in config');
             }
             
-            // Parse filename information using regex
-            const fileInfoList = files.map(filename => this.parseFilenameInfo(filename));
-            console.log('Parsed file info:', fileInfoList);
+            // Load each file sequentially to ensure proper error handling
+            this.availableTopics = [];
             
-            // Load each file from the list
-            const topicsPromises = files.map(filename => {
-                const url = `data/questions/${filename}`;
-                console.log('Loading topic file:', url);
-                return this.loadTopicFile(url);
-            });
+            for (const filename of files) {
+                try {
+                    console.log(`Loading topic file: ${filename}`);
+                    const topicData = await this.loadTopicFile(`data/questions/${filename}`);
+                    
+                    if (topicData) {
+                        // Use the data from the JSON file directly
+                        const topic = {
+                            class: topicData.class,
+                            chapter: topicData.chapter,
+                            topic: topicData.topic,
+                            questions: topicData.questions,
+                            filename: filename
+                        };
+                        
+                        console.log(`Successfully loaded topic:`, topic);
+                        this.availableTopics.push(topic);
+                    } else {
+                        console.warn(`Failed to load topic file: ${filename}, creating fallback`);
+                        // Create a fallback topic using filename parsing
+                        const fallbackTopic = this.createFallbackTopic(filename);
+                        if (fallbackTopic) {
+                            this.availableTopics.push(fallbackTopic);
+                        }
+                    }
+                } catch (error) {
+                    console.error(`Error loading file ${filename}:`, error);
+                    // Create a fallback topic using filename parsing
+                    const fallbackTopic = this.createFallbackTopic(filename);
+                    if (fallbackTopic) {
+                        this.availableTopics.push(fallbackTopic);
+                    }
+                }
+            }
             
-            const loadedTopics = await Promise.all(topicsPromises);
-            console.log('Raw loaded topics:', loadedTopics);
-            
-            this.availableTopics = loadedTopics.filter(topic => topic !== null);
-            console.log('Filtered topics:', this.availableTopics);
-            
-            // Enhance topics with parsed filename information
-            this.availableTopics = this.availableTopics.map((topic, index) => {
-                const enhanced = {
-                    ...topic,
-                    ...fileInfoList[index],
-                    filename: files[index]
-                };
-                console.log(`Enhanced topic ${index}:`, enhanced);
-                return enhanced;
-            });
-            
-            console.log('Successfully loaded and enhanced topics from config:', this.availableTopics);
+            console.log('All topics loaded:', this.availableTopics);
             
             if (this.availableTopics.length === 0) {
                 throw new Error('No valid topics could be loaded');
@@ -156,8 +165,19 @@ class AdminPanel {
             
         } catch (error) {
             console.error('Config file loading failed:', error);
-            throw error; // Re-throw to trigger fallback
+            throw error; // Re-throw to trigger fallback.
         }
+    }
+
+    createFallbackTopic(filename) {
+        const parsedInfo = this.parseFilenameInfo(filename);
+        return {
+            class: parsedInfo.parsedClass,
+            chapter: parsedInfo.parsedSubject,
+            topic: parsedInfo.parsedTopic,
+            questions: [], // Empty questions array for fallback
+            filename: filename
+        };
     }
 
     async loadTopicFile(url) {
@@ -172,8 +192,17 @@ class AdminPanel {
             const data = await response.json();
             console.log(`Successfully loaded ${url}:`, data);
             
+            // Validate the data structure
+            if (!data.class || !data.chapter || !data.topic) {
+                console.warn(`Invalid data structure in ${url}:`, data);
+                return null;
+            }
+            
             return {
-                ...data,
+                class: data.class,
+                chapter: data.chapter,
+                topic: data.topic,
+                questions: data.questions || [],
                 filename: url.split('/').pop()
             };
         } catch (error) {
@@ -183,54 +212,42 @@ class AdminPanel {
     }
 
     parseFilenameInfo(filename) {
-        // Extract information from filename using regex
-        // Expected format: class[NUMBER]-[SUBJECT]-[TOPIC].json
-        const regex = /^class(\d+)-([a-zA-Z]+)-([a-zA-Z]+)\.json$/;
+        // Regex to handle formats: class[NUMBER]-[SUBJECT]-[TOPIC...].json
+        const regex = /^class(\d+)-([a-zA-Z]+)(?:-([\w-]+))?\.json$/;
         const match = filename.match(regex);
-        
+
         if (match) {
-            const [, classNumber, subject, topicKey] = match;
-            
-            // Convert subject abbreviations to full names
+            const [, classNumber, subjectKey, topicKey] = match;
+
+            const capitalize = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+
             const subjectMap = {
                 'algebra': 'Mathematics',
-                'geometry': 'Mathematics', 
                 'math': 'Mathematics',
+                'mathematics': 'Mathematics',
                 'physics': 'Physics',
-                'chemistry': 'Chemistry',
-                'biology': 'Biology',
+                'science': 'Science',
                 'english': 'English',
-                'history': 'History',
-                'geography': 'Geography'
             };
+
+            const subject = subjectMap[subjectKey.toLowerCase()] || capitalize(subjectKey);
             
-            // Convert topic keys to readable names
-            const topicMap = {
-                'quadratic': 'Quadratic Equations',
-                'linear': 'Linear Equations',
-                'circles': 'Circles',
-                'triangles': 'Triangles',
-                'mechanics': 'Mechanics',
-                'thermodynamics': 'Thermodynamics',
-                'waves': 'Waves and Sound',
-                'electricity': 'Electricity',
-                'organic': 'Organic Chemistry',
-                'inorganic': 'Inorganic Chemistry',
-                'atoms': 'Atomic Structure'
-            };
-            
+            // If topicKey exists, format it. Otherwise, use the subject as the topic.
+            const topic = topicKey ? topicKey.split('-').map(capitalize).join(' ') : subject;
+
             return {
                 parsedClass: classNumber,
-                parsedSubject: subjectMap[subject.toLowerCase()] || subject,
-                parsedTopic: topicMap[topicKey.toLowerCase()] || topicKey,
+                parsedSubject: subject,
+                parsedTopic: topic,
                 originalFilename: filename
             };
         } else {
             console.warn(`Could not parse filename: ${filename}`);
+            const cleanedName = filename.replace('.json', '').replace(/-/g, ' ');
             return {
-                parsedClass: 'Unknown',
+                parsedClass: 'N/A',
                 parsedSubject: 'Unknown',
-                parsedTopic: 'Unknown', 
+                parsedTopic: cleanedName,
                 originalFilename: filename
             };
         }
@@ -279,6 +296,23 @@ class AdminPanel {
             this.showScreen('adminPanelScreen');
             // Load topics once admin is logged in
             this.loadAvailableTopics();
+            
+            // Add debug information to console after a delay
+            setTimeout(() => {
+                console.log('=== DEBUG INFORMATION ===');
+                console.log('Available Topics:', this.availableTopics);
+                console.log('Number of topics loaded:', this.availableTopics.length);
+                this.availableTopics.forEach((topic, index) => {
+                    console.log(`Topic ${index + 1}:`, {
+                        filename: topic.filename,
+                        class: topic.class,
+                        chapter: topic.chapter,
+                        topic: topic.topic,
+                        questionsCount: topic.questions?.length || 0
+                    });
+                });
+                console.log('=== END DEBUG ===');
+            }, 2000);
         } else {
             console.log('Login failed');
             this.showAdminError('Invalid username or password');
@@ -302,14 +336,17 @@ class AdminPanel {
             return;
         }
 
-        // Group topics by parsed class information
+        console.log('Rendering topics:', this.availableTopics);
+
+        // Group topics by class information from the JSON file
         const topicsByClass = this.availableTopics.reduce((acc, topic) => {
-            // Use parsed class if available, fallback to original class
-            const classKey = `Class ${topic.parsedClass || topic.class}`;
+            const classKey = `Class ${topic.class || 'Unknown'}`;
             if (!acc[classKey]) acc[classKey] = [];
             acc[classKey].push(topic);
             return acc;
         }, {});
+
+        console.log('Topics grouped by class:', topicsByClass);
 
         this.topicsContainer.innerHTML = Object.entries(topicsByClass)
             .sort(([a], [b]) => a.localeCompare(b))
@@ -320,17 +357,17 @@ class AdminPanel {
                         <div class="topic-checkbox-item">
                             <input type="checkbox" 
                                    id="topic-${topic.filename}" 
-                                   value="${JSON.stringify({
-                                       class: topic.parsedClass || topic.class, 
-                                       chapter: topic.chapter || topic.parsedSubject, 
-                                       topic: topic.topic || topic.parsedTopic
-                                   })}"
+                                   value='${JSON.stringify({
+                                       class: topic.class, 
+                                       chapter: topic.chapter, 
+                                       topic: topic.topic
+                                   })}'
                                    name="topics"
                                    class="topic-checkbox">
                             <label for="topic-${topic.filename}" class="topic-label">
-                                <strong>${topic.parsedSubject || topic.chapter}</strong> - ${topic.parsedTopic || topic.topic}
+                                <strong>${topic.chapter}</strong> - ${topic.topic}
                                 <span style="color: var(--text-secondary); font-size: 0.85em; display: block;">
-                                    ${topic.questions?.length || 0} questions • ${topic.originalFilename}
+                                    ${topic.questions?.length || 0} questions • ${topic.filename}
                                 </span>
                             </label>
                         </div>
@@ -347,12 +384,12 @@ class AdminPanel {
 
         this.availableTopicsRef.innerHTML = this.availableTopics.map(topic => `
             <div class="available-topic-item">
-                <div class="available-topic-title">${topic.parsedTopic || topic.topic}</div>
+                <div class="available-topic-title">${topic.topic}</div>
                 <div class="available-topic-meta">
-                    Class ${topic.parsedClass || topic.class} • ${topic.parsedSubject || topic.chapter} • ${topic.questions?.length || 0} questions
+                    Class ${topic.class} • ${topic.chapter} • ${topic.questions?.length || 0} questions
                 </div>
                 <div style="color: var(--text-muted); font-size: 0.8em; margin-top: 0.25rem;">
-                    File: ${topic.originalFilename || topic.filename}
+                    File: ${topic.filename}
                 </div>
             </div>
         `).join('');

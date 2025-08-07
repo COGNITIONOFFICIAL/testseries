@@ -177,54 +177,42 @@ class QuizApp {
     }
 
     parseFilenameInfo(filename) {
-        // Extract information from filename using regex
-        // Expected format: class[NUMBER]-[SUBJECT]-[TOPIC].json
-        const regex = /^class(\d+)-([a-zA-Z]+)-([a-zA-Z]+)\.json$/;
+        // Regex to handle formats: class[NUMBER]-[SUBJECT]-[TOPIC...].json
+        const regex = /^class(\d+)-([a-zA-Z]+)(?:-([\w-]+))?\.json$/;
         const match = filename.match(regex);
-        
+
         if (match) {
-            const [, classNumber, subject, topicKey] = match;
-            
-            // Convert subject abbreviations to full names
+            const [, classNumber, subjectKey, topicKey] = match;
+
+            const capitalize = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+
             const subjectMap = {
                 'algebra': 'Mathematics',
-                'geometry': 'Mathematics', 
                 'math': 'Mathematics',
+                'mathematics': 'Mathematics',
                 'physics': 'Physics',
-                'chemistry': 'Chemistry',
-                'biology': 'Biology',
+                'science': 'Science',
                 'english': 'English',
-                'history': 'History',
-                'geography': 'Geography'
             };
+
+            const subject = subjectMap[subjectKey.toLowerCase()] || capitalize(subjectKey);
             
-            // Convert topic keys to readable names
-            const topicMap = {
-                'quadratic': 'Quadratic Equations',
-                'linear': 'Linear Equations',
-                'circles': 'Circles',
-                'triangles': 'Triangles',
-                'mechanics': 'Mechanics',
-                'thermodynamics': 'Thermodynamics',
-                'waves': 'Waves and Sound',
-                'electricity': 'Electricity',
-                'organic': 'Organic Chemistry',
-                'inorganic': 'Inorganic Chemistry',
-                'atoms': 'Atomic Structure'
-            };
-            
+            // If topicKey exists, format it. Otherwise, use the subject as the topic.
+            const topic = topicKey ? topicKey.split('-').map(capitalize).join(' ') : subject;
+
             return {
                 parsedClass: classNumber,
-                parsedSubject: subjectMap[subject.toLowerCase()] || subject,
-                parsedTopic: topicMap[topicKey.toLowerCase()] || topicKey,
+                parsedSubject: subject,
+                parsedTopic: topic,
                 originalFilename: filename
             };
         } else {
             console.warn(`Could not parse filename: ${filename}`);
+            const cleanedName = filename.replace('.json', '').replace(/-/g, ' ');
             return {
-                parsedClass: 'Unknown',
+                parsedClass: 'N/A',
                 parsedSubject: 'Unknown',
-                parsedTopic: 'Unknown', 
+                parsedTopic: cleanedName,
                 originalFilename: filename
             };
         }
@@ -312,8 +300,8 @@ class QuizApp {
                 const codesText = await response.text();
                 console.log('Loaded codes.txt content:', codesText);
                 
-                // Filter out comments and empty lines, keep only valid codes
-                const codes = codesText.split('\n')
+                // Robustly split by any newline sequence, trim, and filter.
+                const codes = codesText.split(/\r?\n/)
                     .map(line => line.trim())
                     .filter(line => line && !line.startsWith('#'));
 
