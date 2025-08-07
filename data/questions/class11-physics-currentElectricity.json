@@ -1,0 +1,117 @@
+{
+  "class": "11",
+  "chapter": "Physics",
+  "topic": "Current Electricity",
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "In the electric circuit shown each cell has an emf of 2V and internal resistance of 1Ω. The external resistance is 2Ω. The value of the current I is(in ampere)",
+      "choices": [
+        "2",
+        "1.25",
+        "0.4",
+        "1.2"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q2",
+      "stem": "𝐴, 𝐵, 𝐶 and 𝐷 are four resistances of 2Ω, 2Ω, 2Ω and 3Ω respectively. They are used to form a Wheatstone bridge. The resistance 𝐷 is short circuted with a resistances R in order to get the bridge balanced. The value of 𝑅 will be",
+      "choices": [
+        "4 Ω",
+        "6 Ω",
+        "8 Ω",
+        "3 Ω"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q3", 
+      "stem": "The arrangement shown in figure is called as",
+      "choices": [
+        "Potential divider",
+        "Potential adder",
+        "Potential substracter",
+        "Potential multiplier"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q4",
+      "stem": "If the balance point is obtained at the 35th 𝑐𝑚 in a meter bridge, the resistances in the left and right gaps are in the ratio of",
+      "choices": [
+        "7 : 13",
+        "13 : 7",
+        "9 : 11",
+        "11 : 9"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q5",
+      "stem": "Two electric bulbs rated 𝑃1 watt 𝑉 volts and 𝑃2 watt 𝑉 volts are connected in parallel and 𝑉 volts are applied to it. The total power will be",
+      "choices": [
+        "𝑃1 + 𝑃2 𝑤𝑎𝑡𝑡",
+        "√𝑃1 𝑃2 𝑤𝑎𝑡𝑡",
+        "𝑃1 𝑃2/(𝑃1 + 𝑃2) 𝑤𝑎𝑡𝑡",
+        "(𝑃1 + 𝑃2)/(𝑃1 𝑃2) 𝑤𝑎𝑡𝑡"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q6",
+      "stem": "In a meter bridge a 30Ω resistance is connected in the left gap and a pair of resistances P and Q in the right gap. Measured from the left, the balance point is 37.5 cm, when P and Q are in series and 71.4 cm when they are parallel. The values of P and Q (in ohm) are",
+      "choices": [
+        "40, 10",
+        "35, 15",
+        "30, 20",
+        "25, 25"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q7",
+      "stem": "In an experiment to measure the internal resistance of a cell by potentiometer, it is found that the balance point is at a length of 2𝑚 when the cell is shunted by a 5Ω resistance; and is at a length of 3𝑚 when the cell is shunted by a 10Ω resistance. The internal resistance of the cell is, then",
+      "choices": [
+        "1.5Ω",
+        "10Ω",
+        "15Ω",
+        "1Ω"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q8",
+      "stem": "Two electroplating cells, one of silver and another of aluminium are connected in series. The ratio of the number of silver atoms to that of aluminium atoms deposited during time 𝑡 will be",
+      "choices": [
+        "1 : 3",
+        "3 : 1",
+        "1 : 9",
+        "9 : 1"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q9",
+      "stem": "A coil of wire of resistance 50 Ω is embedded in a block of ice and a potential difference of 210 V is applied across it. The amount of ice which melts in 1 sec is",
+      "choices": [
+        "0.262 g",
+        "2.62 g",
+        "26.2 g",
+        "0.0262 g"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q10",
+      "stem": "The resistance of 1 𝐴 ammeter is 0.018Ω. To convert it into 10 𝐴 ammeter, the shunt resistance required will be",
+      "choices": [
+        "0.18 Ω",
+        "0.0018 Ω",
+        "0.002 Ω",
+        "0.12 Ω"
+      ],
+      "answer": 2
+    }
+  ]
+}
