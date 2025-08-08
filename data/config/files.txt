@@ -15,6 +15,7 @@ class11-english.json
 class11-mathematics.json
 class11-science.json
 class11-physics-mechanics.json
+class11-physics-currentElectricity.json
 class12-english.json
 class12-mathematics.json
 class12-science.json
